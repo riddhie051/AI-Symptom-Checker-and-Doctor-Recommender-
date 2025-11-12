@@ -72,7 +72,7 @@ cd AI-Symptom-Checker-Doctor-Recommender
 2️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # For Windows
-# OR
+OR
 source venv/bin/activate  # For macOS/Linux
 
 3️⃣ Install Dependencies
