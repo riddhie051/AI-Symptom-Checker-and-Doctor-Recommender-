@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-10">
+    <div class="card mb-3">
+      <h4>Appointment Dashboard</h4>
+      <p class="text-muted">Overview of booked appointments</p>
+
+      {% if appointments %}
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th><th>Phone</th><th>Email</th><th>City</th><th>Doctor</th><th>Specialization</th><th>Date</th><th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for a in appointments %}
+                <tr>
+                  <td>{{ a.name }}</td>
+                  <td>{{ a.phone }}</td>
+                  <td>{{ a.email }}</td>
+                  <td>{{ a.city }}</td>
+                  <td>{{ a.doctor_name }}</td>
+                  <td>{{ a.doctor_specialization }}</td>
+                  <td>{{ a.appointment_date or '-' }}</td>
+                  <td>{{ a.appointment_time or '-' }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <div class="alert alert-info">No appointments booked yet.</div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+  <div class="card shadow-sm border-0">
+    <div class="card-body">
+      <h3 class="mb-3 text-center text-primary fw-bold">📈 Health Trends Dashboard</h3>
+      {% if message %}
+        <div class="alert alert-info">{{ message }}</div>
+      {% else %}
+        <p class="text-muted text-center">
+          Below are the visual trends based on all booked appointments.
+        </p>
+      {% endif %}
+
+      <div class="row mt-4">
+        <div class="col-md-6 mb-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title text-success text-center">City-wise Appointments</h5>
+              <canvas id="cityChart" height="200"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title text-info text-center">Specialization-wise Appointments</h5>
+              <canvas id="specializationChart" height="200"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const cityData = {{ city_counts | tojson }};
+  const specializationData = {{ specialization_counts | tojson }};
+
+  if (Object.keys(cityData).length > 0) {
+    new Chart(document.getElementById('cityChart'), {
+      type: 'bar',
+      data: {
+        labels: Object.keys(cityData),
+        datasets: [{
+          label: 'Appointments',
+          data: Object.values(cityData),
+          backgroundColor: '#4CAF50',
+          borderColor: '#2E7D32',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          title: {
+            display: false
+          }
+        },
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  if (Object.keys(specializationData).length > 0) {
+    new Chart(document.getElementById('specializationChart'), {
+      type: 'pie',
+      data: {
+        labels: Object.keys(specializationData),
+        datasets: [{
+          label: 'Appointments',
+          data: Object.values(specializationData),
+          backgroundColor: [
+            '#2196F3', '#FF9800', '#9C27B0', '#00BCD4', '#E91E63', '#4CAF50'
+          ]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'bottom'
+          },
+          title: {
+            display: false
+          }
+        }
+      }
+    });
+  }
+</script>
+{% endblock %}

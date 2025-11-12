@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-10">
+    <div class="card mb-4 card-compact">
+      <h4>Tell us your symptoms</h4>
+      <p class="text-muted">Provide comma-separated symptoms (e.g. fever, cough, headache)</p>
+
+      <form action="/predict" method="post">
+        <div class="mb-3">
+          <textarea name="symptoms" rows="4" class="form-control" placeholder="e.g. fever, sore throat, cough"></textarea>
+        </div>
+
+        <div class="d-flex gap-2">
+          <button class="btn btn-primary">Predict</button>
+          <a href="/doctors" class="btn btn-outline-secondary">Browse Doctors</a>
+        </div>
+      </form>
+    </div>
+
+    <!-- quick links -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card graph-box">
+          <h5>Dashboard</h5>
+          <p class="text-muted small">View appointments & summaries</p>
+          <a href="/dashboard" class="btn btn-sm btn-primary">Open Dashboard</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card graph-box">
+          <h5>Trends</h5>
+          <p class="text-muted small">Visualize disease & appointment trends</p>
+          <a href="/trends" class="btn btn-sm btn-primary">View Trends</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

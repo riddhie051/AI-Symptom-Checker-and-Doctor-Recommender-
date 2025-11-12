@@ -1,0 +1,86 @@
+/* Custom theme: Clinical Calm (Bootstrap override) */
+:root{
+  --primary:#0077b6;
+  --accent:#00b4d8;
+  --muted:#94dff0;
+  --text:#1b262c;
+  --card-shadow: 0 8px 30px rgba(3, 59, 76, 0.06);
+  --radius: 12px;
+  --font: "Lato", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: #f6fcff;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 88px; /* for fixed nav */
+}
+
+/* brand */
+.brand-title { font-weight:700; color:var(--primary); font-size:1rem; }
+.brand-sub { font-size:.75rem; }
+
+/* main container card */
+.container .card {
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  border: none;
+}
+
+/* inputs & controls */
+.form-control, .form-select {
+  border-radius: 10px;
+  border: 1px solid #e6f3f8;
+  box-shadow: none;
+  padding: .7rem .9rem;
+}
+.form-control:focus {
+  border-color: var(--accent);
+  box-shadow: 0 6px 18px rgba(3, 59, 76, 0.05);
+}
+
+/* buttons */
+.btn-primary {
+  background: linear-gradient(90deg, var(--accent), var(--primary));
+  border: none;
+  border-radius: 22px;
+  padding: .55rem 1.1rem;
+  font-weight:700;
+  box-shadow: 0 8px 20px rgba(3, 59, 76, 0.08);
+}
+.btn-primary:hover { transform: translateY(-2px); }
+
+/* tables */
+.table thead th {
+  background: linear-gradient(90deg, rgba(0,119,182,0.12), rgba(0,180,216,0.08));
+  color: var(--primary);
+  font-weight:700;
+}
+.table tbody tr:hover { background: rgba(0,180,216,0.03); }
+
+/* small helpers */
+.card-compact { padding: 18px; border-radius: 12px; }
+.kv { font-weight:600; color:#374151; }
+
+/* Graph container */
+.graph-box {
+  padding: 18px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: var(--card-shadow);
+}
+
+/* Predict result highlight */
+.result-header { display:flex; align-items:center; gap:12px; }
+.result-badge {
+  background: linear-gradient(135deg, var(--accent), var(--primary));
+  color:white; padding:8px 12px; border-radius:10px; font-weight:700;
+}
+
+/* responsive tweaks */
+@media (max-width: 767px) {
+  .brand-title { font-size:.95rem; }
+  .container { padding: 18px; }
+}

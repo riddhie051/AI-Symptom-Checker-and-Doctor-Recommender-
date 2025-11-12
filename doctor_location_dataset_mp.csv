@@ -1,0 +1,501 @@
+doctor_id,doctor_name,specialisation,address,latitude,longitude,diseases_handled,city,lat,lon
+D001,Dr. Aditya Gupta,Orthopedic,"Ratlam, Madhya Pradesh",13.09017,80.28328,"Joint Pain, Back Pain, Fracture",Ratlam,23.31462344858925,75.08022809788012
+D002,Dr. Kavya Agarwal,Psychiatrist,"Rewa, Madhya Pradesh",19.06604,72.88873,"Depression, Insomnia, Bipolar Disorder",Rewa,24.488451174615083,81.2874643394034
+D003,Dr. Vivaan Mehta,Pediatrician,"Rewa, Madhya Pradesh",18.53565,73.84289,"Cough, Fever in Kids, Flu",Rewa,24.535495003699047,81.30994816326768
+D004,Dr. Rohan Nair,ENT Specialist,"Sagar, Madhya Pradesh",26.84548,80.94112,"Hearing Loss, Ear Infection, Sinusitis",Sagar,23.87625996075959,78.70899875482677
+D005,Dr. Rohan Reddy,ENT Specialist,"Gwalior, Madhya Pradesh",17.40263,78.48628,"Ear Infection, Sinusitis, Hearing Loss",Gwalior,26.19999091051453,78.1331035595157
+D006,Dr. Aditi Gupta,ENT Specialist,"Ujjain, Madhya Pradesh",12.97499,77.59889,"Ear Infection, Tonsillitis, Sinusitis",Ujjain,23.163756124699844,75.8331933947507
+D007,Dr. Sanya Kumar,ENT Specialist,"Bhopal, Madhya Pradesh",18.52317,73.85619,"Ear Infection, Sinusitis, Tonsillitis",Bhopal,23.28677148730913,77.42768007452787
+D008,Dr. Aditya Agarwal,Cardiologist,"Chhindwara, Madhya Pradesh",22.56171,88.35695,"High BP, Arrhythmia, Chest Pain",Chhindwara,22.0332353141196,78.97888924672866
+D009,Dr. Kavya Nair,Pediatrician,"Ratlam, Madhya Pradesh",28.6061,77.20519,"Fever in Kids, Flu, Cough",Ratlam,23.379995170799035,75.07051816261674
+D010,Dr. Aarav Chopra,Dentist,"Sagar, Madhya Pradesh",12.95634,77.58782,"Bad Breath, Gum Infection, Tooth Pain",Sagar,23.875102814829116,78.72790884744877
+D011,Dr. Ananya Mehta,Pediatrician,"Chhindwara, Madhya Pradesh",28.62502,77.22791,"Flu, Fever in Kids, Cough",Chhindwara,22.029418058894414,78.97121918685298
+D012,Dr. Vivaan Chopra,Orthopedic,"Ratlam, Madhya Pradesh",19.07148,72.86098,"Fracture, Joint Pain, Arthritis",Ratlam,23.37487154030256,75.01122681378467
+D013,Dr. Aditi Gupta,Cardiologist,"Bhopal, Madhya Pradesh",26.86589,80.95669,"Arrhythmia, Chest Pain, Heart Attack",Bhopal,23.235406114100893,77.41311700414346
+D014,Dr. Sanya Nair,Pediatrician,"Ratlam, Madhya Pradesh",12.98042,77.58411,"Allergy, Fever in Kids, Cough",Ratlam,23.313175273233444,75.00771216060198
+D015,Dr. Kavya Chopra,Dentist,"Ratlam, Madhya Pradesh",12.96567,77.58819,"Tooth Pain, Cavity, Gum Infection",Ratlam,23.377100635409054,75.0092159949533
+D016,Dr. Sanya Agarwal,ENT Specialist,"Jabalpur, Madhya Pradesh",13.06548,80.25474,"Hearing Loss, Ear Infection, Sinusitis",Jabalpur,23.17081759449497,80.03438826132567
+D017,Dr. Ananya Sharma,Pediatrician,"Ujjain, Madhya Pradesh",28.62701,77.2198,"Allergy, Flu, Fever in Kids",Ujjain,23.219375511326838,75.79627397117973
+D018,Dr. Kavya Gupta,Orthopedic,"Rewa, Madhya Pradesh",28.60835,77.22644,"Joint Pain, Back Pain, Fracture",Rewa,24.58459557697475,81.3159882403751
+D019,Dr. Diya Sharma,Cardiologist,"Bhopal, Madhya Pradesh",28.61814,77.21202,"Arrhythmia, Heart Attack, High BP",Bhopal,23.29175233870901,77.37854138081875
+D020,Dr. Vivaan Gupta,Orthopedic,"Rewa, Madhya Pradesh",28.60855,77.20273,"Joint Pain, Fracture, Back Pain",Rewa,24.555011481295264,81.29205935295195
+D021,Dr. Aditi Reddy,Dermatologist,"Chhindwara, Madhya Pradesh",13.09607,80.2611,"Skin Allergy, Eczema, Psoriasis",Chhindwara,22.073185595698124,78.95268405748753
+D022,Dr. Aarav Nair,Dentist,"Ratlam, Madhya Pradesh",23.24382,77.39486,"Gum Infection, Cavity, Bad Breath",Ratlam,23.379873500733872,74.9978073126012
+D023,Dr. Sanya Patel,Dermatologist,"Sagar, Madhya Pradesh",19.06438,72.89748,"Acne, Eczema, Skin Allergy",Sagar,23.852510399704645,78.71424814518883
+D024,Dr. Vivaan Patel,Dermatologist,"Sagar, Madhya Pradesh",26.89864,75.80615,"Psoriasis, Skin Allergy, Eczema",Sagar,23.818342148743316,78.77516401719284
+D025,Dr. Aditya Singh,Dermatologist,"Ujjain, Madhya Pradesh",23.2451,77.40539,"Acne, Eczema, Skin Allergy",Ujjain,23.175991287047584,75.8064078344803
+D026,Dr. Ananya Chopra,ENT Specialist,"Sagar, Madhya Pradesh",23.24264,77.42068,"Hearing Loss, Ear Infection, Tonsillitis",Sagar,23.854062656186787,78.78507734294321
+D027,Dr. Ananya Mehta,Gynecologist,"Ujjain, Madhya Pradesh",28.60327,77.18936,"Menstrual Disorder, PCOD, Pregnancy",Ujjain,23.17538597313728,75.78802736000542
+D028,Dr. Ishita Reddy,Cardiologist,"Satna, Madhya Pradesh",28.60296,77.20581,"Heart Attack, Chest Pain, High BP",Satna,24.612187165198236,80.78586098786955
+D029,Dr. Rohan Agarwal,Gynecologist,"Rewa, Madhya Pradesh",26.83038,80.93384,"PCOD, Pregnancy, Menstrual Disorder",Rewa,24.499874697607986,81.31956724703328
+D030,Dr. Ishita Kumar,Cardiologist,"Sagar, Madhya Pradesh",12.96441,77.59238,"Chest Pain, Arrhythmia, Heart Attack",Sagar,23.835087221681153,78.71663538957692
+D031,Dr. Aditi Kumar,Orthopedic,"Jabalpur, Madhya Pradesh",26.85974,80.94565,"Arthritis, Back Pain, Fracture",Jabalpur,23.185326475886967,79.9672666815974
+D032,Dr. Aarav Patel,Dentist,"Jabalpur, Madhya Pradesh",22.57275,88.34631,"Gum Infection, Cavity, Bad Breath",Jabalpur,23.175803627711954,79.99745806908741
+D033,Dr. Diya Mehta,Pediatrician,"Sagar, Madhya Pradesh",23.27044,77.40827,"Cough, Flu, Allergy",Sagar,23.846208618397505,78.70460698480835
+D034,Dr. Aditya Kumar,Gynecologist,"Sagar, Madhya Pradesh",13.09085,80.2703,"UTI, PCOD, Pregnancy",Sagar,23.80310419067746,78.77398004642346
+D035,Dr. Kavya Singh,Dentist,"Chhindwara, Madhya Pradesh",22.55612,88.35634,"Tooth Pain, Gum Infection, Cavity",Chhindwara,22.030421041547953,78.90421573458492
+D036,Dr. Kavya Reddy,Neurologist,"Gwalior, Madhya Pradesh",13.09777,80.27857,"Stroke, Epilepsy, Parkinson's",Gwalior,26.21587119907018,78.22290876065229
+D037,Dr. Vivaan Agarwal,Gynecologist,"Ujjain, Madhya Pradesh",22.56824,88.35395,"PCOD, Pregnancy, Menstrual Disorder",Ujjain,23.13492448679319,75.80905318699178
+D038,Dr. Sanya Mehta,ENT Specialist,"Ujjain, Madhya Pradesh",28.62428,77.21505,"Sinusitis, Tonsillitis, Ear Infection",Ujjain,23.145605249002372,75.73946466713002
+D039,Dr. Sanya Chopra,Cardiologist,"Sagar, Madhya Pradesh",22.55722,88.35621,"High BP, Chest Pain, Arrhythmia",Sagar,23.862038971879493,78.78321072020692
+D040,Dr. Sanya Mehta,Neurologist,"Indore, Madhya Pradesh",13.08942,80.27704,"Stroke, Parkinson's, Migraine",Indore,22.733128390455978,75.83707438495749
+D041,Dr. Ishita Gupta,ENT Specialist,"Sagar, Madhya Pradesh",18.5034,73.83968,"Tonsillitis, Sinusitis, Ear Infection",Sagar,23.84474071399151,78.73354965296821
+D042,Dr. Aditi Mehta,Orthopedic,"Ujjain, Madhya Pradesh",12.97254,77.60813,"Arthritis, Back Pain, Joint Pain",Ujjain,23.143524232988725,75.76964014133361
+D043,Dr. Aarav Reddy,Dentist,"Jabalpur, Madhya Pradesh",12.9739,77.61275,"Gum Infection, Tooth Pain, Bad Breath",Jabalpur,23.192684871349563,79.98914553422831
+D044,Dr. Kavya Reddy,Neurologist,"Indore, Madhya Pradesh",26.92984,75.80327,"Migraine, Stroke, Parkinson's",Indore,22.736127892201853,75.89336043455435
+D045,Dr. Ishita Agarwal,Gynecologist,"Satna, Madhya Pradesh",17.38865,78.50245,"UTI, Pregnancy, Menstrual Disorder",Satna,24.607974819350055,80.81199290701089
+D046,Dr. Sanya Sharma,ENT Specialist,"Chhindwara, Madhya Pradesh",23.24083,77.40449,"Tonsillitis, Sinusitis, Hearing Loss",Chhindwara,22.07111197230296,78.90303058931154
+D047,Dr. Aditi Agarwal,Cardiologist,"Satna, Madhya Pradesh",12.96488,77.60061,"Arrhythmia, Chest Pain, High BP",Satna,24.64095537366828,80.85752605934674
+D048,Dr. Aditi Gupta,Cardiologist,"Ujjain, Madhya Pradesh",26.84326,80.9338,"Heart Attack, High BP, Arrhythmia",Ujjain,23.126770813472508,75.79531673965963
+D049,Dr. Aarav Gupta,General Physician,"Sagar, Madhya Pradesh",12.95637,77.58442,"Fever, Cold, Headache",Sagar,23.86924720786007,78.76570510053165
+D050,Dr. Kavya Kumar,Dermatologist,"Ujjain, Madhya Pradesh",18.53077,73.85397,"Psoriasis, Eczema, Skin Allergy",Ujjain,23.132761303508516,75.74937817895051
+D051,Dr. Aditi Sharma,Orthopedic,"Ujjain, Madhya Pradesh",13.09182,80.28295,"Arthritis, Joint Pain, Fracture",Ujjain,23.15946593338771,75.7998023058325
+D052,Dr. Diya Reddy,Pediatrician,"Jabalpur, Madhya Pradesh",18.52801,73.83969,"Cough, Flu, Fever in Kids",Jabalpur,23.196028752652957,80.0024486032787
+D053,Dr. Ishita Reddy,Dentist,"Sagar, Madhya Pradesh",28.61575,77.205,"Cavity, Tooth Pain, Gum Infection",Sagar,23.847512424055633,78.78041736222019
+D054,Dr. Ishita Nair,General Physician,"Ratlam, Madhya Pradesh",28.62226,77.20914,"Cold, Flu, Fever",Ratlam,23.332244611445805,74.9931354676199
+D055,Dr. Diya Agarwal,Neurologist,"Gwalior, Madhya Pradesh",26.84624,80.95412,"Migraine, Stroke, Epilepsy",Gwalior,26.21869750859005,78.23272624548615
+D056,Dr. Aarav Sharma,Gynecologist,"Satna, Madhya Pradesh",26.83189,80.96326,"Menstrual Disorder, PCOD, Pregnancy",Satna,24.608379732664588,80.79466835614168
+D057,Dr. Sanya Chopra,Gynecologist,"Bhopal, Madhya Pradesh",12.97866,77.60211,"Pregnancy, Menstrual Disorder, PCOD",Bhopal,23.26246978307164,77.41917714594496
+D058,Dr. Aditya Mehta,Dermatologist,"Ujjain, Madhya Pradesh",28.61909,77.20534,"Skin Allergy, Psoriasis, Acne",Ujjain,23.146571175389198,75.78772324868004
+D059,Dr. Aditi Patel,General Physician,"Satna, Madhya Pradesh",26.92944,75.78637,"Flu, Fever, Cold",Satna,24.585050365803987,80.85239204463828
+D060,Dr. Ananya Kumar,Dermatologist,"Jabalpur, Madhya Pradesh",19.09179,72.8596,"Skin Allergy, Eczema, Psoriasis",Jabalpur,23.19372350364176,80.0038593575304
+D061,Dr. Aarav Sharma,Pediatrician,"Indore, Madhya Pradesh",23.27348,77.42688,"Fever in Kids, Allergy, Flu",Indore,22.735170937448558,75.90430447696782
+D062,Dr. Aarav Sharma,Dentist,"Ratlam, Madhya Pradesh",26.85045,80.9478,"Tooth Pain, Bad Breath, Gum Infection",Ratlam,23.35974734724965,74.99059492914682
+D063,Dr. Rohan Gupta,Pediatrician,"Bhopal, Madhya Pradesh",26.84065,80.96312,"Flu, Allergy, Cough",Bhopal,23.265258514842547,77.36270601606074
+D064,Dr. Aarav Kumar,Neurologist,"Jabalpur, Madhya Pradesh",12.96114,77.59803,"Migraine, Epilepsy, Stroke",Jabalpur,23.139694116228913,80.0170359342825
+D065,Dr. Aditi Reddy,Cardiologist,"Sagar, Madhya Pradesh",12.98543,77.58907,"Heart Attack, High BP, Arrhythmia",Sagar,23.85980016292339,78.68781040673433
+D066,Dr. Rohan Reddy,Pediatrician,"Gwalior, Madhya Pradesh",26.846,80.9413,"Cough, Allergy, Flu",Gwalior,26.247451739043292,78.16375159983035
+D067,Dr. Aditi Mehta,Gynecologist,"Jabalpur, Madhya Pradesh",28.61025,77.22203,"Menstrual Disorder, UTI, PCOD",Jabalpur,23.164732353804595,79.94280971481457
+D068,Dr. Sanya Gupta,Gynecologist,"Chhindwara, Madhya Pradesh",19.06588,72.88363,"Menstrual Disorder, Pregnancy, PCOD",Chhindwara,22.079847956036886,78.90492413138904
+D069,Dr. Aditi Mehta,Dentist,"Jabalpur, Madhya Pradesh",13.10205,80.2682,"Bad Breath, Tooth Pain, Cavity",Jabalpur,23.180780122478005,79.9685229866052
+D070,Dr. Ananya Sharma,Gynecologist,"Ujjain, Madhya Pradesh",18.51471,73.85936,"Menstrual Disorder, Pregnancy, UTI",Ujjain,23.133525288855097,75.82860025002185
+D071,Dr. Ananya Nair,Orthopedic,"Chhindwara, Madhya Pradesh",22.59191,88.37582,"Joint Pain, Arthritis, Fracture",Chhindwara,22.04195277646828,78.96459071112369
+D072,Dr. Diya Mehta,Dermatologist,"Chhindwara, Madhya Pradesh",17.38441,78.47381,"Psoriasis, Skin Allergy, Eczema",Chhindwara,22.10084568022149,78.90204690507267
+D073,Dr. Ishita Patel,Psychiatrist,"Chhindwara, Madhya Pradesh",26.85872,80.93992,"Anxiety, Depression, Bipolar Disorder",Chhindwara,22.047270384563124,78.95575740875073
+D074,Dr. Vivaan Reddy,Neurologist,"Chhindwara, Madhya Pradesh",13.07249,80.28837,"Parkinson's, Epilepsy, Migraine",Chhindwara,22.077124734712932,78.92954198852925
+D075,Dr. Diya Agarwal,Neurologist,"Sagar, Madhya Pradesh",17.39004,78.48663,"Migraine, Epilepsy, Stroke",Sagar,23.82034919706592,78.70989963723042
+D076,Dr. Ishita Sharma,Cardiologist,"Bhopal, Madhya Pradesh",28.60893,77.19562,"Arrhythmia, Heart Attack, High BP",Bhopal,23.25903012091819,77.40443331614343
+D077,Dr. Aditya Gupta,Orthopedic,"Gwalior, Madhya Pradesh",13.09371,80.27402,"Fracture, Back Pain, Arthritis",Gwalior,26.262032323330562,78.16737984029996
+D078,Dr. Ananya Nair,Dentist,"Chhindwara, Madhya Pradesh",26.84812,80.9292,"Bad Breath, Tooth Pain, Cavity",Chhindwara,22.08024183710393,78.9581506875945
+D079,Dr. Rohan Nair,Neurologist,"Chhindwara, Madhya Pradesh",19.09078,72.8818,"Parkinson's, Stroke, Epilepsy",Chhindwara,22.049101918749333,78.91903587402079
+D080,Dr. Rohan Reddy,Cardiologist,"Jabalpur, Madhya Pradesh",18.51118,73.87536,"High BP, Heart Attack, Chest Pain",Jabalpur,23.227295700861,80.02751832787132
+D081,Dr. Diya Gupta,Dermatologist,"Rewa, Madhya Pradesh",13.07729,80.27291,"Psoriasis, Skin Allergy, Acne",Rewa,24.567699862337506,81.2795423908286
+D082,Dr. Diya Agarwal,Gynecologist,"Indore, Madhya Pradesh",13.08271,80.28545,"Pregnancy, Menstrual Disorder, PCOD",Indore,22.744074750287936,75.84936986413346
+D083,Dr. Ishita Reddy,Psychiatrist,"Ujjain, Madhya Pradesh",26.84345,80.94209,"Bipolar Disorder, Insomnia, Anxiety",Ujjain,23.186543013759046,75.78565128846367
+D084,Dr. Sanya Reddy,Cardiologist,"Jabalpur, Madhya Pradesh",17.38584,78.48802,"Chest Pain, Arrhythmia, Heart Attack",Jabalpur,23.144777956131012,79.9800091352971
+D085,Dr. Ananya Nair,Psychiatrist,"Gwalior, Madhya Pradesh",22.55791,88.35959,"Anxiety, Insomnia, Bipolar Disorder",Gwalior,26.21724657835338,78.1530570610288
+D086,Dr. Rohan Reddy,Psychiatrist,"Satna, Madhya Pradesh",22.59063,88.34579,"Anxiety, Insomnia, Bipolar Disorder",Satna,24.643400908820443,80.82748754398548
+D087,Dr. Ananya Gupta,Dentist,"Ujjain, Madhya Pradesh",22.58762,88.35147,"Cavity, Bad Breath, Tooth Pain",Ujjain,23.22027479473992,75.83689802560706
+D088,Dr. Aditya Chopra,ENT Specialist,"Jabalpur, Madhya Pradesh",26.82947,80.92789,"Sinusitis, Hearing Loss, Ear Infection",Jabalpur,23.217401000647293,79.98162235997661
+D089,Dr. Rohan Nair,ENT Specialist,"Ratlam, Madhya Pradesh",26.83027,80.95457,"Sinusitis, Ear Infection, Hearing Loss",Ratlam,23.370604161917502,75.05213156579856
+D090,Dr. Sanya Agarwal,Dermatologist,"Jabalpur, Madhya Pradesh",18.50152,73.84278,"Eczema, Psoriasis, Acne",Jabalpur,23.14785987591792,79.98160276088335
+D091,Dr. Diya Nair,Cardiologist,"Indore, Madhya Pradesh",22.57231,88.37748,"Chest Pain, Arrhythmia, High BP",Indore,22.71699936366253,75.81638002250473
+D092,Dr. Sanya Patel,Cardiologist,"Chhindwara, Madhya Pradesh",26.89507,75.77286,"Chest Pain, High BP, Heart Attack",Chhindwara,22.09451270655698,78.95281351081941
+D093,Dr. Ishita Kumar,Gynecologist,"Chhindwara, Madhya Pradesh",12.95997,77.5747,"UTI, PCOD, Pregnancy",Chhindwara,22.048321826531126,78.96703740254256
+D094,Dr. Kavya Patel,Orthopedic,"Satna, Madhya Pradesh",17.39883,78.47434,"Fracture, Joint Pain, Back Pain",Satna,24.610484386617628,80.85828435191446
+D095,Dr. Sanya Kumar,Psychiatrist,"Rewa, Madhya Pradesh",28.59755,77.22619,"Insomnia, Bipolar Disorder, Anxiety",Rewa,24.498354808975147,81.32712332828861
+D096,Dr. Vivaan Gupta,Cardiologist,"Rewa, Madhya Pradesh",12.95334,77.59023,"Arrhythmia, Chest Pain, Heart Attack",Rewa,24.570902469137458,81.2545570926386
+D097,Dr. Aditi Sharma,ENT Specialist,"Indore, Madhya Pradesh",19.09092,72.86589,"Hearing Loss, Sinusitis, Tonsillitis",Indore,22.715231641270613,75.85031808222324
+D098,Dr. Sanya Reddy,Neurologist,"Sagar, Madhya Pradesh",13.0704,80.27748,"Epilepsy, Parkinson's, Stroke",Sagar,23.86796301116623,78.77627613866613
+D099,Dr. Aditya Kumar,Neurologist,"Gwalior, Madhya Pradesh",18.52492,73.84627,"Migraine, Parkinson's, Stroke",Gwalior,26.211565004446832,78.21887023163184
+D100,Dr. Ananya Kumar,Cardiologist,"Jabalpur, Madhya Pradesh",19.06785,72.87375,"Arrhythmia, High BP, Heart Attack",Jabalpur,23.207189281321217,80.01401298971442
+D101,Dr. Sanya Agarwal,Cardiologist,"Ratlam, Madhya Pradesh",26.92132,75.79368,"High BP, Chest Pain, Arrhythmia",Ratlam,23.31225124459166,75.01052617574592
+D102,Dr. Aarav Agarwal,Orthopedic,"Bhopal, Madhya Pradesh",23.26784,77.42394,"Joint Pain, Fracture, Arthritis",Bhopal,23.230176564383783,77.45425905912599
+D103,Dr. Kavya Patel,Dermatologist,"Gwalior, Madhya Pradesh",26.83121,80.9484,"Psoriasis, Skin Allergy, Acne",Gwalior,26.235426578609513,78.19464545874492
+D104,Dr. Aarav Mehta,General Physician,"Indore, Madhya Pradesh",28.63202,77.20022,"Cough, Flu, Cold",Indore,22.703974546122666,75.86467234735426
+D105,Dr. Kavya Gupta,Neurologist,"Ujjain, Madhya Pradesh",19.09261,72.88761,"Epilepsy, Stroke, Migraine",Ujjain,23.183673154750828,75.78561536237213
+D106,Dr. Sanya Sharma,Cardiologist,"Bhopal, Madhya Pradesh",23.27327,77.39738,"Chest Pain, Heart Attack, Arrhythmia",Bhopal,23.302382968019213,77.41044018048864
+D107,Dr. Aarav Sharma,Gynecologist,"Satna, Madhya Pradesh",18.53465,73.86923,"PCOD, Menstrual Disorder, UTI",Satna,24.55683051374856,80.88029395795525
+D108,Dr. Rohan Patel,Cardiologist,"Sagar, Madhya Pradesh",17.37188,78.50108,"Chest Pain, High BP, Heart Attack",Sagar,23.86895202637714,78.70280415955234
+D109,Dr. Ishita Nair,ENT Specialist,"Chhindwara, Madhya Pradesh",26.92469,75.77531,"Tonsillitis, Sinusitis, Ear Infection",Chhindwara,22.02738402143506,78.95052307497936
+D110,Dr. Aditya Agarwal,Psychiatrist,"Ujjain, Madhya Pradesh",18.52715,73.85746,"Depression, Anxiety, Insomnia",Ujjain,23.17775224541173,75.82272188025152
+D111,Dr. Diya Agarwal,General Physician,"Ratlam, Madhya Pradesh",13.08038,80.27175,"Cough, Cold, Fever",Ratlam,23.31129626156678,75.0766904912422
+D112,Dr. Aditi Patel,Neurologist,"Rewa, Madhya Pradesh",26.8499,80.9287,"Epilepsy, Stroke, Parkinson's",Rewa,24.554695779831675,81.25551419892241
+D113,Dr. Diya Sharma,Psychiatrist,"Rewa, Madhya Pradesh",12.95172,77.59068,"Insomnia, Bipolar Disorder, Anxiety",Rewa,24.502638789458913,81.26917538792489
+D114,Dr. Ishita Reddy,Neurologist,"Jabalpur, Madhya Pradesh",26.83777,80.93583,"Parkinson's, Stroke, Epilepsy",Jabalpur,23.18320503279024,80.00235370422385
+D115,Dr. Aarav Agarwal,Gynecologist,"Gwalior, Madhya Pradesh",13.08805,80.2746,"PCOD, UTI, Menstrual Disorder",Gwalior,26.194236823021306,78.22127927403457
+D116,Dr. Rohan Singh,Gynecologist,"Satna, Madhya Pradesh",13.07123,80.25335,"Menstrual Disorder, Pregnancy, PCOD",Satna,24.603367425081423,80.83644292226563
+D117,Dr. Ishita Gupta,Gynecologist,"Indore, Madhya Pradesh",13.08796,80.28599,"UTI, Menstrual Disorder, PCOD",Indore,22.736386723220264,75.86048914063052
+D118,Dr. Diya Reddy,Orthopedic,"Rewa, Madhya Pradesh",13.06781,80.27394,"Fracture, Back Pain, Arthritis",Rewa,24.55652378001666,81.32712459055439
+D119,Dr. Ananya Sharma,ENT Specialist,"Ujjain, Madhya Pradesh",22.5793,88.35374,"Tonsillitis, Ear Infection, Sinusitis",Ujjain,23.140769726645377,75.74126393499617
+D120,Dr. Diya Chopra,ENT Specialist,"Sagar, Madhya Pradesh",26.84484,80.93046,"Sinusitis, Ear Infection, Hearing Loss",Sagar,23.860957587400524,78.71938177672176
+D121,Dr. Ishita Kumar,Dermatologist,"Gwalior, Madhya Pradesh",26.90619,75.77751,"Psoriasis, Eczema, Skin Allergy",Gwalior,26.184043893808685,78.13708232197135
+D122,Dr. Rohan Patel,Dentist,"Ratlam, Madhya Pradesh",13.10226,80.28247,"Gum Infection, Bad Breath, Tooth Pain",Ratlam,23.2918264081067,74.99480674773683
+D123,Dr. Ishita Agarwal,ENT Specialist,"Bhopal, Madhya Pradesh",17.40318,78.49784,"Ear Infection, Hearing Loss, Sinusitis",Bhopal,23.28544086050332,77.37455544434324
+D124,Dr. Aditya Nair,ENT Specialist,"Ratlam, Madhya Pradesh",26.91987,75.76931,"Ear Infection, Sinusitis, Hearing Loss",Ratlam,23.28937302748625,75.07943498253327
+D125,Dr. Aditya Kumar,ENT Specialist,"Rewa, Madhya Pradesh",26.86616,80.94597,"Ear Infection, Sinusitis, Hearing Loss",Rewa,24.499710655119102,81.3332467739268
+D126,Dr. Vivaan Nair,ENT Specialist,"Chhindwara, Madhya Pradesh",17.37435,78.50534,"Tonsillitis, Sinusitis, Hearing Loss",Chhindwara,22.057601500773345,78.96214821903583
+D127,Dr. Aarav Sharma,Psychiatrist,"Indore, Madhya Pradesh",17.36783,78.49458,"Bipolar Disorder, Insomnia, Depression",Indore,22.72079901932424,75.8245587487451
+D128,Dr. Kavya Chopra,Pediatrician,"Bhopal, Madhya Pradesh",17.39856,78.49473,"Cough, Fever in Kids, Allergy",Bhopal,23.259750205681694,77.45438579449564
+D129,Dr. Vivaan Kumar,Dentist,"Satna, Madhya Pradesh",28.63246,77.22484,"Bad Breath, Gum Infection, Tooth Pain",Satna,24.569677285402346,80.83944642534239
+D130,Dr. Vivaan Mehta,Pediatrician,"Jabalpur, Madhya Pradesh",23.2682,77.40497,"Allergy, Fever in Kids, Cough",Jabalpur,23.231436632773953,79.94580675014171
+D131,Dr. Kavya Reddy,Cardiologist,"Bhopal, Madhya Pradesh",26.86363,80.93544,"Chest Pain, Heart Attack, Arrhythmia",Bhopal,23.22961213238906,77.46202421093547
+D132,Dr. Aditi Singh,Gynecologist,"Indore, Madhya Pradesh",26.85781,80.93615,"PCOD, Menstrual Disorder, UTI",Indore,22.734657980005476,75.83269739642522
+D133,Dr. Diya Patel,Gynecologist,"Ratlam, Madhya Pradesh",13.08622,80.27907,"PCOD, UTI, Menstrual Disorder",Ratlam,23.28800488939603,74.99886538300086
+D134,Dr. Ishita Chopra,Pediatrician,"Bhopal, Madhya Pradesh",28.611,77.22449,"Fever in Kids, Allergy, Flu",Bhopal,23.304744635422157,77.42939007190114
+D135,Dr. Sanya Kumar,Neurologist,"Ujjain, Madhya Pradesh",28.61022,77.22514,"Parkinson's, Epilepsy, Stroke",Ujjain,23.198624861187945,75.83609470838763
+D136,Dr. Kavya Sharma,Dermatologist,"Jabalpur, Madhya Pradesh",22.57282,88.36887,"Skin Allergy, Eczema, Psoriasis",Jabalpur,23.20005108089852,80.0144704749241
+D137,Dr. Ishita Kumar,Psychiatrist,"Indore, Madhya Pradesh",13.08439,80.28298,"Anxiety, Depression, Bipolar Disorder",Indore,22.742009273758658,75.89207497368915
+D138,Dr. Ishita Singh,ENT Specialist,"Satna, Madhya Pradesh",19.06599,72.86802,"Hearing Loss, Ear Infection, Tonsillitis",Satna,24.61528174738442,80.80279292264882
+D139,Dr. Diya Nair,Orthopedic,"Chhindwara, Madhya Pradesh",19.08213,72.86575,"Fracture, Arthritis, Back Pain",Chhindwara,22.0216073995713,78.95002341250924
+D140,Dr. Aarav Nair,Orthopedic,"Chhindwara, Madhya Pradesh",22.57331,88.37102,"Back Pain, Fracture, Arthritis",Chhindwara,22.053928267773554,78.95614369168311
+D141,Dr. Aditya Chopra,Pediatrician,"Sagar, Madhya Pradesh",23.27013,77.42335,"Flu, Fever in Kids, Allergy",Sagar,23.83133649232135,78.7806078400766
+D142,Dr. Diya Gupta,Dermatologist,"Gwalior, Madhya Pradesh",13.09572,80.28249,"Psoriasis, Skin Allergy, Eczema",Gwalior,26.217967670778584,78.22891197058071
+D143,Dr. Diya Gupta,Cardiologist,"Rewa, Madhya Pradesh",26.90649,75.77712,"Heart Attack, Chest Pain, Arrhythmia",Rewa,24.495196079316678,81.26528279880459
+D144,Dr. Vivaan Nair,Dentist,"Bhopal, Madhya Pradesh",19.0765,72.86426,"Bad Breath, Gum Infection, Tooth Pain",Bhopal,23.226538648687335,77.40469295297419
+D145,Dr. Aarav Kumar,General Physician,"Ujjain, Madhya Pradesh",26.91661,75.79642,"Cough, Flu, Fever",Ujjain,23.173891279739536,75.82004924451701
+D146,Dr. Vivaan Chopra,Psychiatrist,"Indore, Madhya Pradesh",26.92296,75.77342,"Depression, Insomnia, Anxiety",Indore,22.67371569202292,75.86277217665761
+D147,Dr. Ishita Mehta,ENT Specialist,"Jabalpur, Madhya Pradesh",26.90323,75.76851,"Ear Infection, Sinusitis, Tonsillitis",Jabalpur,23.1347108893936,79.95238929480968
+D148,Dr. Kavya Kumar,Gynecologist,"Satna, Madhya Pradesh",13.09679,80.26664,"PCOD, UTI, Menstrual Disorder",Satna,24.630523016386164,80.84069899975042
+D149,Dr. Aditi Patel,Dentist,"Gwalior, Madhya Pradesh",13.09686,80.27126,"Gum Infection, Cavity, Bad Breath",Gwalior,26.253170607067997,78.21514271765902
+D150,Dr. Rohan Mehta,Gynecologist,"Chhindwara, Madhya Pradesh",19.06593,72.89306,"Menstrual Disorder, UTI, PCOD",Chhindwara,22.071420031297603,78.95034173514824
+D151,Dr. Aditi Chopra,Cardiologist,"Ujjain, Madhya Pradesh",19.09559,72.86643,"High BP, Chest Pain, Arrhythmia",Ujjain,23.1424929464177,75.75704019933683
+D152,Dr. Ananya Agarwal,Psychiatrist,"Gwalior, Madhya Pradesh",22.568,88.36223,"Insomnia, Bipolar Disorder, Depression",Gwalior,26.23708194070679,78.22878465597583
+D153,Dr. Ananya Nair,Dermatologist,"Satna, Madhya Pradesh",17.38479,78.47218,"Acne, Psoriasis, Skin Allergy",Satna,24.600892552863876,80.78690370036794
+D154,Dr. Vivaan Patel,Dentist,"Chhindwara, Madhya Pradesh",12.98693,77.61438,"Cavity, Tooth Pain, Gum Infection",Chhindwara,22.067372249645686,78.92801856448023
+D155,Dr. Ananya Gupta,ENT Specialist,"Sagar, Madhya Pradesh",26.86172,80.95982,"Tonsillitis, Ear Infection, Sinusitis",Sagar,23.848231041624857,78.74262627474478
+D156,Dr. Aarav Patel,Neurologist,"Indore, Madhya Pradesh",26.86367,80.94449,"Parkinson's, Epilepsy, Stroke",Indore,22.76692334657923,75.90545573222454
+D157,Dr. Ishita Sharma,Cardiologist,"Satna, Madhya Pradesh",26.89263,75.78319,"Chest Pain, Heart Attack, High BP",Satna,24.62162823679927,80.81026754044794
+D158,Dr. Aditi Chopra,Dentist,"Ratlam, Madhya Pradesh",26.8603,80.94446,"Cavity, Tooth Pain, Gum Infection",Ratlam,23.33627274901289,75.0797495175699
+D159,Dr. Aarav Mehta,Cardiologist,"Rewa, Madhya Pradesh",12.95323,77.59772,"High BP, Heart Attack, Chest Pain",Rewa,24.489229194335216,81.2886253369343
+D160,Dr. Aditya Kumar,Psychiatrist,"Bhopal, Madhya Pradesh",18.52473,73.85273,"Anxiety, Insomnia, Bipolar Disorder",Bhopal,23.236138568244936,77.44838313101377
+D161,Dr. Ishita Singh,ENT Specialist,"Satna, Madhya Pradesh",18.52608,73.87344,"Ear Infection, Tonsillitis, Hearing Loss",Satna,24.611506768766706,80.79991609541536
+D162,Dr. Aditi Mehta,General Physician,"Ratlam, Madhya Pradesh",19.06341,72.86607,"Fever, Headache, Cough",Ratlam,23.360563631532397,75.0684187713919
+D163,Dr. Vivaan Patel,Psychiatrist,"Rewa, Madhya Pradesh",12.9517,77.6017,"Bipolar Disorder, Anxiety, Depression",Rewa,24.490382252841933,81.3235737612387
+D164,Dr. Diya Nair,Orthopedic,"Bhopal, Madhya Pradesh",17.39827,78.49817,"Arthritis, Back Pain, Joint Pain",Bhopal,23.307529705571827,77.39593759482347
+D165,Dr. Ananya Reddy,Pediatrician,"Ratlam, Madhya Pradesh",19.06419,72.8704,"Flu, Fever in Kids, Cough",Ratlam,23.32231295280297,74.99195718876786
+D166,Dr. Vivaan Singh,Dermatologist,"Ujjain, Madhya Pradesh",26.84177,80.9378,"Eczema, Acne, Skin Allergy",Ujjain,23.192081163347883,75.80464366089787
+D167,Dr. Diya Mehta,Dentist,"Rewa, Madhya Pradesh",26.8357,80.9508,"Bad Breath, Tooth Pain, Cavity",Rewa,24.516542076460777,81.33776867247325
+D168,Dr. Rohan Mehta,Cardiologist,"Bhopal, Madhya Pradesh",28.60341,77.20856,"Arrhythmia, High BP, Chest Pain",Bhopal,23.295581317961123,77.40997942298247
+D169,Dr. Aditya Singh,Dermatologist,"Bhopal, Madhya Pradesh",26.93127,75.77574,"Acne, Psoriasis, Skin Allergy",Bhopal,23.2155928563814,77.41106299075155
+D170,Dr. Diya Patel,ENT Specialist,"Ratlam, Madhya Pradesh",17.37306,78.48491,"Sinusitis, Ear Infection, Hearing Loss",Ratlam,23.309892541942933,75.05787069494129
+D171,Dr. Diya Agarwal,Cardiologist,"Bhopal, Madhya Pradesh",26.85828,80.95168,"High BP, Heart Attack, Arrhythmia",Bhopal,23.234974397620974,77.39850617372173
+D172,Dr. Sanya Nair,Pediatrician,"Ratlam, Madhya Pradesh",17.39367,78.48644,"Cough, Allergy, Flu",Ratlam,23.295454308489663,75.05000102139293
+D173,Dr. Kavya Singh,Pediatrician,"Chhindwara, Madhya Pradesh",18.50705,73.83805,"Fever in Kids, Flu, Cough",Chhindwara,22.087527615190982,78.95279212373711
+D174,Dr. Ananya Singh,General Physician,"Ujjain, Madhya Pradesh",18.53182,73.84777,"Cough, Cold, Headache",Ujjain,23.202059383757767,75.81828215818162
+D175,Dr. Vivaan Nair,General Physician,"Satna, Madhya Pradesh",19.06978,72.88953,"Flu, Fever, Headache",Satna,24.64296902900852,80.85708883607683
+D176,Dr. Aditya Singh,General Physician,"Gwalior, Madhya Pradesh",26.86296,80.94889,"Cough, Cold, Flu",Gwalior,26.206862764454655,78.17302515097515
+D177,Dr. Diya Gupta,Neurologist,"Ujjain, Madhya Pradesh",19.05844,72.88452,"Parkinson's, Migraine, Stroke",Ujjain,23.211064188484492,75.75513446410427
+D178,Dr. Ishita Sharma,Cardiologist,"Gwalior, Madhya Pradesh",19.06691,72.87303,"Arrhythmia, High BP, Heart Attack",Gwalior,26.26445576719527,78.14522098809394
+D179,Dr. Aditi Agarwal,General Physician,"Bhopal, Madhya Pradesh",12.96572,77.60239,"Flu, Headache, Cold",Bhopal,23.27547544640961,77.37274677078324
+D180,Dr. Aarav Chopra,Dermatologist,"Jabalpur, Madhya Pradesh",18.50237,73.85863,"Psoriasis, Skin Allergy, Acne",Jabalpur,23.198213877148344,79.97948121163027
+D181,Dr. Kavya Singh,Psychiatrist,"Gwalior, Madhya Pradesh",26.83975,80.94078,"Bipolar Disorder, Depression, Insomnia",Gwalior,26.247051497733764,78.22863934953794
+D182,Dr. Aditi Singh,Gynecologist,"Rewa, Madhya Pradesh",26.90247,75.80436,"Pregnancy, PCOD, Menstrual Disorder",Rewa,24.584129000091828,81.29800831879335
+D183,Dr. Rohan Agarwal,Gynecologist,"Indore, Madhya Pradesh",26.85687,80.9533,"UTI, Pregnancy, Menstrual Disorder",Indore,22.672620459974365,75.87532621479352
+D184,Dr. Aditi Nair,Dentist,"Bhopal, Madhya Pradesh",18.52904,73.84093,"Gum Infection, Cavity, Bad Breath",Bhopal,23.26630307173248,77.44699179698443
+D185,Dr. Ananya Chopra,Orthopedic,"Bhopal, Madhya Pradesh",17.39023,78.49731,"Arthritis, Joint Pain, Back Pain",Bhopal,23.26768758828451,77.4372994460197
+D186,Dr. Diya Sharma,Neurologist,"Indore, Madhya Pradesh",28.59738,77.19772,"Parkinson's, Epilepsy, Stroke",Indore,22.681679793452673,75.81594814740983
+D187,Dr. Diya Sharma,Pediatrician,"Indore, Madhya Pradesh",13.07927,80.25095,"Cough, Allergy, Fever in Kids",Indore,22.71084791378579,75.88039300934685
+D188,Dr. Ananya Singh,Orthopedic,"Gwalior, Madhya Pradesh",12.95986,77.59498,"Fracture, Joint Pain, Back Pain",Gwalior,26.175497794383762,78.19119204250204
+D189,Dr. Diya Reddy,ENT Specialist,"Bhopal, Madhya Pradesh",23.27327,77.39762,"Sinusitis, Hearing Loss, Ear Infection",Bhopal,23.24218464913779,77.41019089479269
+D190,Dr. Aditya Nair,ENT Specialist,"Ujjain, Madhya Pradesh",17.37072,78.48562,"Tonsillitis, Ear Infection, Sinusitis",Ujjain,23.177337395785834,75.79039322277974
+D191,Dr. Sanya Reddy,Gynecologist,"Ratlam, Madhya Pradesh",28.62875,77.22331,"Pregnancy, PCOD, Menstrual Disorder",Ratlam,23.340726639178826,75.00387701748524
+D192,Dr. Aarav Gupta,ENT Specialist,"Bhopal, Madhya Pradesh",18.51754,73.84997,"Sinusitis, Ear Infection, Tonsillitis",Bhopal,23.28888079879811,77.40565537038891
+D193,Dr. Aarav Chopra,Gynecologist,"Ratlam, Madhya Pradesh",23.25709,77.41491,"UTI, Pregnancy, Menstrual Disorder",Ratlam,23.33767578121219,75.05263103614143
+D194,Dr. Aarav Chopra,Dermatologist,"Satna, Madhya Pradesh",26.84193,80.93952,"Skin Allergy, Psoriasis, Eczema",Satna,24.61816099623511,80.83666503267229
+D195,Dr. Ishita Gupta,Cardiologist,"Bhopal, Madhya Pradesh",13.09073,80.28208,"High BP, Heart Attack, Chest Pain",Bhopal,23.248481866611577,77.38464493446824
+D196,Dr. Vivaan Reddy,Pediatrician,"Ratlam, Madhya Pradesh",22.58838,88.36085,"Flu, Cough, Allergy",Ratlam,23.316979258476337,75.01396930562322
+D197,Dr. Ishita Reddy,Dermatologist,"Ujjain, Madhya Pradesh",19.09224,72.87057,"Eczema, Acne, Psoriasis",Ujjain,23.209615146436256,75.79598089956099
+D198,Dr. Rohan Mehta,Cardiologist,"Jabalpur, Madhya Pradesh",26.84396,80.94459,"Arrhythmia, Chest Pain, Heart Attack",Jabalpur,23.132725132851515,79.95244354252081
+D199,Dr. Aditi Chopra,Dermatologist,"Jabalpur, Madhya Pradesh",26.82926,80.94332,"Psoriasis, Skin Allergy, Acne",Jabalpur,23.161193151594826,79.95936106988819
+D200,Dr. Sanya Mehta,Dermatologist,"Rewa, Madhya Pradesh",22.5833,88.3498,"Acne, Psoriasis, Eczema",Rewa,24.550772289460152,81.3207003345693
+D201,Dr. Sanya Kumar,Pediatrician,"Ujjain, Madhya Pradesh",19.07187,72.89541,"Flu, Fever in Kids, Cough",Ujjain,23.202142651686692,75.78774937123057
+D202,Dr. Rohan Reddy,Cardiologist,"Chhindwara, Madhya Pradesh",22.56462,88.3745,"Heart Attack, Arrhythmia, Chest Pain",Chhindwara,22.08823756076075,78.89848481081104
+D203,Dr. Diya Gupta,Orthopedic,"Sagar, Madhya Pradesh",26.89548,75.78254,"Fracture, Back Pain, Joint Pain",Sagar,23.828550704398225,78.7625974893959
+D204,Dr. Kavya Singh,Dentist,"Bhopal, Madhya Pradesh",23.26229,77.41137,"Gum Infection, Tooth Pain, Bad Breath",Bhopal,23.215020305149668,77.41381759787784
+D205,Dr. Ananya Kumar,ENT Specialist,"Gwalior, Madhya Pradesh",26.90322,75.79949,"Hearing Loss, Tonsillitis, Ear Infection",Gwalior,26.19977851768112,78.22662699634
+D206,Dr. Aditi Mehta,General Physician,"Jabalpur, Madhya Pradesh",23.25966,77.41062,"Cold, Cough, Fever",Jabalpur,23.1669616919289,80.0240947681242
+D207,Dr. Ananya Agarwal,Neurologist,"Chhindwara, Madhya Pradesh",12.96698,77.57575,"Migraine, Parkinson's, Stroke",Chhindwara,22.088245260663175,78.9405365936622
+D208,Dr. Aditya Patel,Orthopedic,"Chhindwara, Madhya Pradesh",28.60965,77.22656,"Fracture, Joint Pain, Back Pain",Chhindwara,22.039534610198512,78.93051092924824
+D209,Dr. Diya Kumar,Neurologist,"Satna, Madhya Pradesh",18.53983,73.87034,"Stroke, Epilepsy, Migraine",Satna,24.568012214752923,80.80189400982522
+D210,Dr. Sanya Sharma,General Physician,"Satna, Madhya Pradesh",26.83214,80.96598,"Flu, Fever, Headache",Satna,24.619813713995644,80.83995519984077
+D211,Dr. Diya Chopra,Orthopedic,"Indore, Madhya Pradesh",28.61141,77.19203,"Arthritis, Back Pain, Fracture",Indore,22.7682820145019,75.90615558245214
+D212,Dr. Aditi Agarwal,General Physician,"Satna, Madhya Pradesh",18.50259,73.85976,"Cold, Cough, Headache",Satna,24.577768598295446,80.80809473793909
+D213,Dr. Ishita Mehta,Psychiatrist,"Sagar, Madhya Pradesh",19.09395,72.86423,"Depression, Anxiety, Insomnia",Sagar,23.842150415033444,78.7369980572077
+D214,Dr. Sanya Singh,Orthopedic,"Gwalior, Madhya Pradesh",26.91334,75.77789,"Arthritis, Back Pain, Fracture",Gwalior,26.239339084187797,78.21980575177311
+D215,Dr. Aditya Kumar,Pediatrician,"Chhindwara, Madhya Pradesh",19.08103,72.86765,"Fever in Kids, Flu, Allergy",Chhindwara,22.022587802713105,78.89201805384
+D216,Dr. Ananya Nair,Psychiatrist,"Indore, Madhya Pradesh",26.89414,75.80647,"Anxiety, Bipolar Disorder, Insomnia",Indore,22.71759589043244,75.90657805276412
+D217,Dr. Vivaan Nair,ENT Specialist,"Ratlam, Madhya Pradesh",23.25564,77.39877,"Tonsillitis, Sinusitis, Hearing Loss",Ratlam,23.30696986631145,74.99397064380594
+D218,Dr. Aditi Agarwal,Gynecologist,"Chhindwara, Madhya Pradesh",22.58235,88.36328,"Menstrual Disorder, PCOD, UTI",Chhindwara,22.060813264614758,78.95627404040363
+D219,Dr. Aditya Mehta,Pediatrician,"Rewa, Madhya Pradesh",26.85543,80.94756,"Allergy, Cough, Flu",Rewa,24.521871688215278,81.3150219354719
+D220,Dr. Aarav Mehta,Pediatrician,"Sagar, Madhya Pradesh",17.37256,78.49111,"Flu, Allergy, Fever in Kids",Sagar,23.8148838959808,78.71364321217972
+D221,Dr. Diya Reddy,Neurologist,"Satna, Madhya Pradesh",28.59944,77.19529,"Parkinson's, Epilepsy, Migraine",Satna,24.575281430568722,80.78710035968133
+D222,Dr. Ishita Singh,Pediatrician,"Satna, Madhya Pradesh",26.93176,75.78906,"Fever in Kids, Cough, Flu",Satna,24.563694883200313,80.84723877116764
+D223,Dr. Diya Gupta,Pediatrician,"Ratlam, Madhya Pradesh",28.62797,77.20104,"Cough, Allergy, Fever in Kids",Ratlam,23.318794741387062,75.08036690028325
+D224,Dr. Sanya Mehta,Orthopedic,"Ujjain, Madhya Pradesh",12.96949,77.59404,"Back Pain, Joint Pain, Arthritis",Ujjain,23.165639623131582,75.77993642353476
+D225,Dr. Vivaan Reddy,Pediatrician,"Bhopal, Madhya Pradesh",13.09995,80.27795,"Flu, Cough, Allergy",Bhopal,23.233185289376788,77.40749805861005
+D226,Dr. Ananya Gupta,General Physician,"Jabalpur, Madhya Pradesh",18.51234,73.85733,"Cold, Cough, Flu",Jabalpur,23.229294077083093,79.96819075731624
+D227,Dr. Vivaan Nair,Neurologist,"Ratlam, Madhya Pradesh",26.8606,80.93404,"Migraine, Epilepsy, Stroke",Ratlam,23.305746259122294,75.02103213049499
+D228,Dr. Ananya Singh,ENT Specialist,"Jabalpur, Madhya Pradesh",22.56889,88.3585,"Hearing Loss, Sinusitis, Tonsillitis",Jabalpur,23.18735418416906,80.0009640039592
+D229,Dr. Aditi Agarwal,Dentist,"Ratlam, Madhya Pradesh",22.55833,88.36056,"Cavity, Gum Infection, Bad Breath",Ratlam,23.307918683294712,74.9915286611217
+D230,Dr. Kavya Gupta,Neurologist,"Indore, Madhya Pradesh",23.24299,77.41655,"Migraine, Stroke, Parkinson's",Indore,22.746146603855635,75.86868838156971
+D231,Dr. Vivaan Chopra,Gynecologist,"Chhindwara, Madhya Pradesh",22.57274,88.344,"Pregnancy, PCOD, UTI",Chhindwara,22.062733350394293,78.91367457684612
+D232,Dr. Aarav Chopra,Pediatrician,"Rewa, Madhya Pradesh",26.86411,80.93434,"Allergy, Fever in Kids, Flu",Rewa,24.550637456795318,81.26578657079553
+D233,Dr. Aarav Agarwal,Cardiologist,"Satna, Madhya Pradesh",28.61157,77.20777,"Heart Attack, High BP, Chest Pain",Satna,24.59324970544892,80.82758108385022
+D234,Dr. Aditi Kumar,Dermatologist,"Indore, Madhya Pradesh",13.07715,80.2531,"Eczema, Acne, Psoriasis",Indore,22.722606635570305,75.88262323557277
+D235,Dr. Aditya Gupta,Pediatrician,"Satna, Madhya Pradesh",12.99007,77.60238,"Flu, Fever in Kids, Cough",Satna,24.62546789244898,80.83671289901291
+D236,Dr. Aarav Sharma,ENT Specialist,"Jabalpur, Madhya Pradesh",17.3718,78.48633,"Ear Infection, Sinusitis, Tonsillitis",Jabalpur,23.14760563232324,80.01347789033774
+D237,Dr. Aditi Singh,Dermatologist,"Satna, Madhya Pradesh",22.55306,88.35493,"Skin Allergy, Psoriasis, Acne",Satna,24.61022768860182,80.82966384196313
+D238,Dr. Diya Patel,Gynecologist,"Sagar, Madhya Pradesh",12.95198,77.58894,"PCOD, Pregnancy, Menstrual Disorder",Sagar,23.837895571777633,78.70604535717695
+D239,Dr. Aarav Sharma,Dentist,"Jabalpur, Madhya Pradesh",22.59056,88.34826,"Tooth Pain, Bad Breath, Cavity",Jabalpur,23.17972460864808,79.98575580881283
+D240,Dr. Kavya Kumar,Pediatrician,"Indore, Madhya Pradesh",28.61375,77.2097,"Allergy, Cough, Fever in Kids",Indore,22.70593895344131,75.83120101948542
+D241,Dr. Sanya Sharma,General Physician,"Chhindwara, Madhya Pradesh",17.37761,78.4754,"Cough, Fever, Cold",Chhindwara,22.098837370869557,78.95023211592094
+D242,Dr. Aditya Patel,Dentist,"Sagar, Madhya Pradesh",12.96024,77.59543,"Gum Infection, Tooth Pain, Cavity",Sagar,23.79945155056814,78.72313230889749
+D243,Dr. Rohan Patel,Neurologist,"Gwalior, Madhya Pradesh",19.08454,72.886,"Stroke, Parkinson's, Migraine",Gwalior,26.227826217648023,78.22994033001272
+D244,Dr. Aarav Mehta,ENT Specialist,"Ratlam, Madhya Pradesh",19.09187,72.87584,"Sinusitis, Tonsillitis, Hearing Loss",Ratlam,23.29880097589435,75.0417949894993
+D245,Dr. Ishita Reddy,Orthopedic,"Gwalior, Madhya Pradesh",17.40202,78.47771,"Arthritis, Joint Pain, Fracture",Gwalior,26.220893962652283,78.1442510147586
+D246,Dr. Aditya Mehta,Dermatologist,"Jabalpur, Madhya Pradesh",23.24727,77.40741,"Eczema, Acne, Psoriasis",Jabalpur,23.168939336453164,80.02292638281108
+D247,Dr. Rohan Gupta,Pediatrician,"Indore, Madhya Pradesh",18.5035,73.86682,"Allergy, Fever in Kids, Flu",Indore,22.724972540423785,75.88148270648415
+D248,Dr. Rohan Mehta,ENT Specialist,"Ratlam, Madhya Pradesh",22.57255,88.35752,"Ear Infection, Sinusitis, Hearing Loss",Ratlam,23.335601330552993,75.03532823935824
+D249,Dr. Ananya Patel,Gynecologist,"Ratlam, Madhya Pradesh",18.53067,73.85138,"PCOD, Menstrual Disorder, Pregnancy",Ratlam,23.290618312058644,75.07459974801583
+D250,Dr. Aditya Singh,Cardiologist,"Sagar, Madhya Pradesh",26.9228,75.79842,"Chest Pain, Arrhythmia, Heart Attack",Sagar,23.791234803667205,78.75996021811281
+D251,Dr. Aditya Nair,Pediatrician,"Bhopal, Madhya Pradesh",22.55721,88.37305,"Allergy, Cough, Flu",Bhopal,23.299892078991988,77.43586996621784
+D252,Dr. Rohan Patel,Pediatrician,"Gwalior, Madhya Pradesh",13.07599,80.27299,"Allergy, Fever in Kids, Cough",Gwalior,26.168992509612888,78.21141436809029
+D253,Dr. Aditi Chopra,Orthopedic,"Jabalpur, Madhya Pradesh",28.61515,77.21791,"Fracture, Arthritis, Joint Pain",Jabalpur,23.211198931645033,80.0028695707624
+D254,Dr. Aarav Sharma,ENT Specialist,"Rewa, Madhya Pradesh",17.38456,78.50177,"Tonsillitis, Hearing Loss, Sinusitis",Rewa,24.577146617039396,81.33632920621672
+D255,Dr. Ishita Chopra,Dentist,"Ujjain, Madhya Pradesh",26.855,80.94779,"Gum Infection, Tooth Pain, Cavity",Ujjain,23.1300093668425,75.812367571513
+D256,Dr. Rohan Reddy,Psychiatrist,"Satna, Madhya Pradesh",23.27179,77.42552,"Anxiety, Depression, Insomnia",Satna,24.649689478102864,80.78517129173615
+D257,Dr. Aditya Patel,Pediatrician,"Gwalior, Madhya Pradesh",13.093,80.25804,"Cough, Flu, Fever in Kids",Gwalior,26.18090417521944,78.138615558346
+D258,Dr. Sanya Sharma,Pediatrician,"Gwalior, Madhya Pradesh",18.5308,73.83823,"Flu, Fever in Kids, Cough",Gwalior,26.172301345940678,78.1600454679254
+D259,Dr. Aditya Mehta,Dentist,"Gwalior, Madhya Pradesh",26.86114,80.95662,"Bad Breath, Gum Infection, Tooth Pain",Gwalior,26.235965081439403,78.18565465388829
+D260,Dr. Aditya Patel,Psychiatrist,"Satna, Madhya Pradesh",26.92779,75.8037,"Insomnia, Depression, Bipolar Disorder",Satna,24.598454422325737,80.83213186054448
+D261,Dr. Aditi Reddy,Gynecologist,"Bhopal, Madhya Pradesh",13.07303,80.2833,"UTI, Pregnancy, Menstrual Disorder",Bhopal,23.254270309933457,77.41012474731973
+D262,Dr. Sanya Patel,General Physician,"Bhopal, Madhya Pradesh",18.53438,73.86295,"Cold, Flu, Fever",Bhopal,23.210953096038335,77.45427997614564
+D263,Dr. Diya Reddy,Dermatologist,"Chhindwara, Madhya Pradesh",23.2662,77.39463,"Skin Allergy, Eczema, Psoriasis",Chhindwara,22.056191124510878,78.89425713405973
+D264,Dr. Aarav Nair,Pediatrician,"Sagar, Madhya Pradesh",13.09348,80.27242,"Fever in Kids, Allergy, Flu",Sagar,23.805799034813628,78.77278877665093
+D265,Dr. Aarav Mehta,Psychiatrist,"Rewa, Madhya Pradesh",26.90566,75.76981,"Anxiety, Depression, Bipolar Disorder",Rewa,24.49077430042735,81.33100250176861
+D266,Dr. Vivaan Kumar,Neurologist,"Chhindwara, Madhya Pradesh",12.97882,77.57818,"Epilepsy, Parkinson's, Migraine",Chhindwara,22.10206352814933,78.986847135249
+D267,Dr. Aarav Gupta,Pediatrician,"Rewa, Madhya Pradesh",18.53791,73.8369,"Flu, Cough, Allergy",Rewa,24.567733613283266,81.32592664902843
+D268,Dr. Kavya Chopra,ENT Specialist,"Gwalior, Madhya Pradesh",28.60744,77.20496,"Sinusitis, Tonsillitis, Ear Infection",Gwalior,26.24511598529009,78.22571489209244
+D269,Dr. Vivaan Agarwal,Neurologist,"Sagar, Madhya Pradesh",12.95678,77.61028,"Parkinson's, Migraine, Epilepsy",Sagar,23.828466066893643,78.77727547767925
+D270,Dr. Sanya Agarwal,Cardiologist,"Ujjain, Madhya Pradesh",26.82672,80.93225,"Arrhythmia, Chest Pain, Heart Attack",Ujjain,23.19364780810563,75.83036275629613
+D271,Dr. Ishita Kumar,Neurologist,"Gwalior, Madhya Pradesh",12.9813,77.603,"Stroke, Parkinson's, Migraine",Gwalior,26.194242206223553,78.14194716191221
+D272,Dr. Kavya Kumar,Cardiologist,"Jabalpur, Madhya Pradesh",13.0861,80.28914,"Arrhythmia, Chest Pain, High BP",Jabalpur,23.214435194248114,79.96209843038713
+D273,Dr. Aditi Gupta,Neurologist,"Satna, Madhya Pradesh",26.90095,75.76818,"Migraine, Epilepsy, Parkinson's",Satna,24.619272260559608,80.83183224848783
+D274,Dr. Diya Patel,General Physician,"Bhopal, Madhya Pradesh",18.53,73.87512,"Fever, Headache, Cough",Bhopal,23.25812198671641,77.4167614152913
+D275,Dr. Rohan Agarwal,Dentist,"Ratlam, Madhya Pradesh",17.3705,78.47764,"Tooth Pain, Cavity, Gum Infection",Ratlam,23.364903247154448,75.05072495204998
+D276,Dr. Aditi Chopra,General Physician,"Bhopal, Madhya Pradesh",26.90009,75.79764,"Headache, Fever, Flu",Bhopal,23.305818573754898,77.44076159758741
+D277,Dr. Aarav Reddy,Neurologist,"Ratlam, Madhya Pradesh",17.37609,78.48727,"Stroke, Parkinson's, Migraine",Ratlam,23.356864805778265,75.0761176349275
+D278,Dr. Sanya Reddy,Psychiatrist,"Bhopal, Madhya Pradesh",26.90649,75.80022,"Bipolar Disorder, Depression, Insomnia",Bhopal,23.277462960184003,77.4170894152982
+D279,Dr. Aditi Chopra,General Physician,"Satna, Madhya Pradesh",28.60723,77.20487,"Headache, Cold, Flu",Satna,24.645493916270823,80.85803834776823
+D280,Dr. Kavya Singh,Dermatologist,"Sagar, Madhya Pradesh",17.39108,78.48938,"Skin Allergy, Acne, Psoriasis",Sagar,23.824373944386444,78.68943349597654
+D281,Dr. Diya Chopra,ENT Specialist,"Satna, Madhya Pradesh",17.37626,78.48109,"Ear Infection, Hearing Loss, Sinusitis",Satna,24.558179532594092,80.84245209554331
+D282,Dr. Aditya Reddy,Neurologist,"Ratlam, Madhya Pradesh",26.90424,75.77843,"Parkinson's, Stroke, Migraine",Ratlam,23.333937155787428,74.99624476209036
+D283,Dr. Ishita Reddy,Psychiatrist,"Bhopal, Madhya Pradesh",26.91255,75.78698,"Anxiety, Bipolar Disorder, Insomnia",Bhopal,23.292888153945317,77.36706710492115
+D284,Dr. Ananya Singh,Cardiologist,"Chhindwara, Madhya Pradesh",17.37184,78.49853,"Chest Pain, Heart Attack, Arrhythmia",Chhindwara,22.065958669262933,78.90073000180179
+D285,Dr. Kavya Chopra,Dermatologist,"Jabalpur, Madhya Pradesh",22.58345,88.36347,"Skin Allergy, Acne, Psoriasis",Jabalpur,23.152679594209168,80.02719059990551
+D286,Dr. Vivaan Singh,Psychiatrist,"Ujjain, Madhya Pradesh",18.53949,73.87444,"Insomnia, Depression, Bipolar Disorder",Ujjain,23.158588231065266,75.76191646867106
+D287,Dr. Ishita Patel,Gynecologist,"Ratlam, Madhya Pradesh",28.61954,77.21344,"UTI, PCOD, Pregnancy",Ratlam,23.28559301028408,75.05188875666613
+D288,Dr. Sanya Patel,Gynecologist,"Sagar, Madhya Pradesh",23.27512,77.41519,"PCOD, Menstrual Disorder, UTI",Sagar,23.82137939050678,78.77653427051347
+D289,Dr. Kavya Gupta,General Physician,"Sagar, Madhya Pradesh",13.08439,80.26354,"Cold, Flu, Cough",Sagar,23.796790759664166,78.69210690441794
+D290,Dr. Ishita Agarwal,Psychiatrist,"Bhopal, Madhya Pradesh",22.57448,88.35629,"Depression, Insomnia, Bipolar Disorder",Bhopal,23.224361342841096,77.41181389976624
+D291,Dr. Rohan Sharma,Psychiatrist,"Jabalpur, Madhya Pradesh",19.05995,72.88074,"Anxiety, Depression, Bipolar Disorder",Jabalpur,23.217840316074685,80.01864350035406
+D292,Dr. Diya Sharma,Orthopedic,"Jabalpur, Madhya Pradesh",22.59098,88.37853,"Fracture, Joint Pain, Back Pain",Jabalpur,23.137875181616494,79.97453435010631
+D293,Dr. Kavya Kumar,Neurologist,"Bhopal, Madhya Pradesh",13.08959,80.28146,"Stroke, Migraine, Parkinson's",Bhopal,23.28352725191228,77.3753679592967
+D294,Dr. Diya Sharma,Dermatologist,"Bhopal, Madhya Pradesh",22.56571,88.3699,"Psoriasis, Acne, Skin Allergy",Bhopal,23.2628723350913,77.44811221840708
+D295,Dr. Ishita Kumar,Psychiatrist,"Bhopal, Madhya Pradesh",18.51881,73.86066,"Depression, Bipolar Disorder, Insomnia",Bhopal,23.262008126252756,77.39912269162612
+D296,Dr. Aditi Nair,Orthopedic,"Rewa, Madhya Pradesh",26.90395,75.7851,"Arthritis, Fracture, Joint Pain",Rewa,24.543344556481152,81.26873909311009
+D297,Dr. Sanya Sharma,ENT Specialist,"Sagar, Madhya Pradesh",28.60611,77.20157,"Sinusitis, Ear Infection, Hearing Loss",Sagar,23.81540146298363,78.69099228233611
+D298,Dr. Sanya Reddy,General Physician,"Bhopal, Madhya Pradesh",26.92484,75.80394,"Cough, Headache, Flu",Bhopal,23.258035246270747,77.37512849057146
+D299,Dr. Aarav Nair,General Physician,"Ratlam, Madhya Pradesh",12.96131,77.5887,"Cold, Flu, Fever",Ratlam,23.338549745337602,75.08398497595797
+D300,Dr. Rohan Mehta,Dentist,"Gwalior, Madhya Pradesh",17.40128,78.4818,"Bad Breath, Gum Infection, Tooth Pain",Gwalior,26.20437015040404,78.200460334735
+D301,Dr. Sanya Agarwal,Dentist,"Jabalpur, Madhya Pradesh",26.89447,75.7736,"Cavity, Gum Infection, Tooth Pain",Jabalpur,23.178468302586648,80.02164556359986
+D302,Dr. Diya Mehta,Gynecologist,"Bhopal, Madhya Pradesh",17.39532,78.50095,"Menstrual Disorder, Pregnancy, UTI",Bhopal,23.215453222264582,77.42021719448509
+D303,Dr. Aarav Sharma,Gynecologist,"Indore, Madhya Pradesh",22.5621,88.3782,"Menstrual Disorder, Pregnancy, PCOD",Indore,22.689435256311363,75.89803029581265
+D304,Dr. Ishita Mehta,Dentist,"Rewa, Madhya Pradesh",18.54009,73.85087,"Cavity, Tooth Pain, Gum Infection",Rewa,24.56039242476808,81.25817736444264
+D305,Dr. Vivaan Reddy,Dentist,"Jabalpur, Madhya Pradesh",22.55642,88.38149,"Bad Breath, Tooth Pain, Cavity",Jabalpur,23.182135648913,79.97208349879688
+D306,Dr. Aditya Sharma,Dermatologist,"Chhindwara, Madhya Pradesh",26.92906,75.78468,"Acne, Eczema, Skin Allergy",Chhindwara,22.01815736415497,78.91969280051421
+D307,Dr. Sanya Kumar,ENT Specialist,"Ujjain, Madhya Pradesh",18.50208,73.85879,"Sinusitis, Ear Infection, Hearing Loss",Ujjain,23.13334872466716,75.76722921703669
+D308,Dr. Aditya Sharma,Pediatrician,"Rewa, Madhya Pradesh",22.59041,88.371,"Allergy, Fever in Kids, Cough",Rewa,24.560507249778436,81.31361140649676
+D309,Dr. Vivaan Patel,ENT Specialist,"Satna, Madhya Pradesh",19.09579,72.89168,"Sinusitis, Ear Infection, Hearing Loss",Satna,24.632772165482784,80.82173825739889
+D310,Dr. Vivaan Gupta,Cardiologist,"Satna, Madhya Pradesh",26.90237,75.79362,"Chest Pain, Heart Attack, Arrhythmia",Satna,24.564451461788835,80.81523654196504
+D311,Dr. Ishita Chopra,Gynecologist,"Indore, Madhya Pradesh",13.09024,80.28004,"Menstrual Disorder, PCOD, Pregnancy",Indore,22.738579529343887,75.82779537804734
+D312,Dr. Sanya Gupta,Gynecologist,"Rewa, Madhya Pradesh",12.96574,77.5749,"Menstrual Disorder, Pregnancy, PCOD",Rewa,24.58068538746876,81.31557051768955
+D313,Dr. Ananya Patel,Dermatologist,"Bhopal, Madhya Pradesh",26.83564,80.94684,"Psoriasis, Eczema, Skin Allergy",Bhopal,23.281389218863257,77.43020338349645
+D314,Dr. Rohan Kumar,General Physician,"Bhopal, Madhya Pradesh",28.60167,77.21984,"Flu, Fever, Cold",Bhopal,23.299655748176853,77.4454504556593
+D315,Dr. Diya Chopra,General Physician,"Ujjain, Madhya Pradesh",17.36883,78.49402,"Cold, Fever, Headache",Ujjain,23.17747187810955,75.82848273217378
+D316,Dr. Diya Nair,General Physician,"Sagar, Madhya Pradesh",28.59928,77.21057,"Cough, Cold, Headache",Sagar,23.797887285045505,78.76220377335578
+D317,Dr. Kavya Gupta,Gynecologist,"Satna, Madhya Pradesh",12.95576,77.60487,"Pregnancy, Menstrual Disorder, PCOD",Satna,24.583201520161303,80.84374161314842
+D318,Dr. Sanya Patel,Psychiatrist,"Jabalpur, Madhya Pradesh",17.37156,78.476,"Bipolar Disorder, Anxiety, Insomnia",Jabalpur,23.162091577602332,79.96890964213155
+D319,Dr. Ishita Kumar,Dentist,"Satna, Madhya Pradesh",17.39428,78.48696,"Bad Breath, Tooth Pain, Gum Infection",Satna,24.58217986658693,80.79119678966467
+D320,Dr. Rohan Sharma,Dentist,"Bhopal, Madhya Pradesh",22.57533,88.36752,"Cavity, Bad Breath, Tooth Pain",Bhopal,23.21436816279231,77.38133919531897
+D321,Dr. Rohan Kumar,General Physician,"Sagar, Madhya Pradesh",17.39941,78.47855,"Cold, Headache, Flu",Sagar,23.82093551099381,78.69935499411419
+D322,Dr. Diya Agarwal,Orthopedic,"Bhopal, Madhya Pradesh",22.58899,88.38358,"Arthritis, Fracture, Joint Pain",Bhopal,23.220414243316824,77.3644088771342
+D323,Dr. Vivaan Kumar,Neurologist,"Ratlam, Madhya Pradesh",18.53155,73.86745,"Epilepsy, Stroke, Migraine",Ratlam,23.307169376968552,74.99538753848194
+D324,Dr. Rohan Mehta,Psychiatrist,"Satna, Madhya Pradesh",26.86261,80.94198,"Anxiety, Insomnia, Depression",Satna,24.562722946207415,80.85483694670039
+D325,Dr. Ishita Sharma,Dentist,"Bhopal, Madhya Pradesh",12.9757,77.58142,"Gum Infection, Tooth Pain, Bad Breath",Bhopal,23.27944911885814,77.38591559751282
+D326,Dr. Vivaan Singh,Dermatologist,"Bhopal, Madhya Pradesh",26.90402,75.76829,"Eczema, Skin Allergy, Psoriasis",Bhopal,23.213477772401173,77.39866824278806
+D327,Dr. Vivaan Agarwal,Orthopedic,"Indore, Madhya Pradesh",12.9715,77.60022,"Joint Pain, Back Pain, Arthritis",Indore,22.695679613977493,75.88745685347752
+D328,Dr. Diya Mehta,Neurologist,"Rewa, Madhya Pradesh",26.83511,80.94146,"Migraine, Epilepsy, Stroke",Rewa,24.570995943700694,81.27398960771131
+D329,Dr. Diya Singh,Psychiatrist,"Rewa, Madhya Pradesh",19.07842,72.8921,"Insomnia, Bipolar Disorder, Anxiety",Rewa,24.523534659514723,81.32280364540033
+D330,Dr. Kavya Gupta,Psychiatrist,"Chhindwara, Madhya Pradesh",12.98079,77.58589,"Depression, Insomnia, Anxiety",Chhindwara,22.087387995065086,78.89492471319919
+D331,Dr. Aditya Patel,Dermatologist,"Satna, Madhya Pradesh",12.96649,77.6083,"Eczema, Skin Allergy, Acne",Satna,24.58300618115663,80.86999259963632
+D332,Dr. Sanya Sharma,Dermatologist,"Gwalior, Madhya Pradesh",28.59468,77.21562,"Skin Allergy, Acne, Psoriasis",Gwalior,26.220608435738125,78.17852409787842
+D333,Dr. Ananya Nair,ENT Specialist,"Jabalpur, Madhya Pradesh",13.07688,80.26047,"Ear Infection, Hearing Loss, Sinusitis",Jabalpur,23.212608047206295,79.99341840452328
+D334,Dr. Vivaan Kumar,Psychiatrist,"Satna, Madhya Pradesh",18.51139,73.83834,"Insomnia, Anxiety, Depression",Satna,24.59648635789215,80.83344046161625
+D335,Dr. Ishita Sharma,Gynecologist,"Ujjain, Madhya Pradesh",22.55464,88.368,"PCOD, UTI, Menstrual Disorder",Ujjain,23.150705988313803,75.83566547902464
+D336,Dr. Aarav Sharma,ENT Specialist,"Satna, Madhya Pradesh",17.39669,78.46834,"Sinusitis, Tonsillitis, Ear Infection",Satna,24.62655199371096,80.83870167030614
+D337,Dr. Vivaan Reddy,Psychiatrist,"Chhindwara, Madhya Pradesh",12.95359,77.59582,"Depression, Bipolar Disorder, Insomnia",Chhindwara,22.052240309509845,78.98430224107459
+D338,Dr. Aarav Mehta,Pediatrician,"Jabalpur, Madhya Pradesh",26.85551,80.95586,"Cough, Fever in Kids, Allergy",Jabalpur,23.18419101509315,80.00299916520378
+D339,Dr. Ishita Gupta,General Physician,"Ratlam, Madhya Pradesh",26.85758,80.94514,"Headache, Flu, Cough",Ratlam,23.373508119495046,75.01658017459023
+D340,Dr. Sanya Mehta,Psychiatrist,"Satna, Madhya Pradesh",28.60946,77.19963,"Bipolar Disorder, Depression, Anxiety",Satna,24.60093253409017,80.78843728884941
+D341,Dr. Vivaan Kumar,General Physician,"Bhopal, Madhya Pradesh",23.24731,77.42262,"Cold, Fever, Cough",Bhopal,23.257611729074448,77.36273390327496
+D342,Dr. Ishita Mehta,Dermatologist,"Ratlam, Madhya Pradesh",18.52844,73.87217,"Eczema, Acne, Psoriasis",Ratlam,23.32270470840255,75.07501573837222
+D343,Dr. Aditi Reddy,Orthopedic,"Chhindwara, Madhya Pradesh",18.51968,73.83838,"Fracture, Back Pain, Joint Pain",Chhindwara,22.067054363103644,78.93013380220778
+D344,Dr. Aditi Chopra,Psychiatrist,"Chhindwara, Madhya Pradesh",26.89518,75.78589,"Bipolar Disorder, Anxiety, Insomnia",Chhindwara,22.064645940796257,78.89380473360872
+D345,Dr. Aditi Nair,Psychiatrist,"Rewa, Madhya Pradesh",23.259,77.40922,"Bipolar Disorder, Anxiety, Insomnia",Rewa,24.514230375416936,81.27169678256136
+D346,Dr. Diya Patel,Dermatologist,"Satna, Madhya Pradesh",26.8627,80.94155,"Acne, Psoriasis, Skin Allergy",Satna,24.604038878155542,80.79542816505801
+D347,Dr. Sanya Reddy,Gynecologist,"Chhindwara, Madhya Pradesh",18.53865,73.84746,"PCOD, Menstrual Disorder, UTI",Chhindwara,22.078071056267902,78.98241664521046
+D348,Dr. Kavya Reddy,ENT Specialist,"Bhopal, Madhya Pradesh",12.97349,77.59949,"Ear Infection, Sinusitis, Hearing Loss",Bhopal,23.304090879027235,77.38561777290913
+D349,Dr. Aditya Mehta,ENT Specialist,"Gwalior, Madhya Pradesh",18.51212,73.84861,"Tonsillitis, Hearing Loss, Sinusitis",Gwalior,26.26374713935571,78.21092370601943
+D350,Dr. Ananya Mehta,Pediatrician,"Rewa, Madhya Pradesh",13.09553,80.28189,"Fever in Kids, Allergy, Cough",Rewa,24.527785466188877,81.30625666685987
+D351,Dr. Aarav Patel,General Physician,"Sagar, Madhya Pradesh",13.09694,80.26224,"Flu, Cough, Cold",Sagar,23.86853615508606,78.703328253775
+D352,Dr. Kavya Sharma,Gynecologist,"Ujjain, Madhya Pradesh",12.99118,77.58776,"PCOD, Menstrual Disorder, Pregnancy",Ujjain,23.199254609109797,75.7946618206682
+D353,Dr. Diya Chopra,Psychiatrist,"Ujjain, Madhya Pradesh",18.53905,73.85966,"Insomnia, Depression, Anxiety",Ujjain,23.172925262977866,75.7733857810441
+D354,Dr. Ananya Nair,ENT Specialist,"Bhopal, Madhya Pradesh",12.96904,77.60691,"Sinusitis, Hearing Loss, Tonsillitis",Bhopal,23.260574732711298,77.37109677190537
+D355,Dr. Aditya Kumar,Psychiatrist,"Ratlam, Madhya Pradesh",12.96512,77.58467,"Insomnia, Bipolar Disorder, Anxiety",Ratlam,23.3004568460551,75.01962629230208
+D356,Dr. Sanya Agarwal,Neurologist,"Jabalpur, Madhya Pradesh",26.83327,80.95848,"Parkinson's, Stroke, Migraine",Jabalpur,23.195963889407693,80.01504058010913
+D357,Dr. Aarav Reddy,General Physician,"Ujjain, Madhya Pradesh",28.6023,77.18904,"Fever, Flu, Cold",Ujjain,23.178203074407815,75.83345957317273
+D358,Dr. Aditi Reddy,Neurologist,"Ratlam, Madhya Pradesh",17.39964,78.4749,"Migraine, Stroke, Parkinson's",Ratlam,23.320472313657397,75.07943701194323
+D359,Dr. Vivaan Patel,Cardiologist,"Satna, Madhya Pradesh",26.92972,75.77941,"Arrhythmia, Heart Attack, Chest Pain",Satna,24.598610072708713,80.85604952569818
+D360,Dr. Diya Reddy,Dentist,"Jabalpur, Madhya Pradesh",17.40258,78.4919,"Gum Infection, Cavity, Bad Breath",Jabalpur,23.207795166500993,80.02115154055896
+D361,Dr. Vivaan Mehta,Psychiatrist,"Bhopal, Madhya Pradesh",23.24217,77.39616,"Depression, Anxiety, Bipolar Disorder",Bhopal,23.2824143641402,77.38748980266601
+D362,Dr. Ananya Kumar,General Physician,"Satna, Madhya Pradesh",12.96977,77.57986,"Flu, Fever, Headache",Satna,24.572077821165248,80.84865375063875
+D363,Dr. Aarav Mehta,Dermatologist,"Ujjain, Madhya Pradesh",26.92938,75.80324,"Psoriasis, Eczema, Skin Allergy",Ujjain,23.205901457848544,75.79052670378378
+D364,Dr. Kavya Sharma,Neurologist,"Gwalior, Madhya Pradesh",22.56506,88.3653,"Epilepsy, Migraine, Stroke",Gwalior,26.18660651680427,78.13615664028833
+D365,Dr. Ananya Gupta,Orthopedic,"Rewa, Madhya Pradesh",12.96233,77.60139,"Arthritis, Back Pain, Joint Pain",Rewa,24.579223341324607,81.27348146183674
+D366,Dr. Aditya Agarwal,General Physician,"Satna, Madhya Pradesh",18.53881,73.86447,"Cold, Headache, Fever",Satna,24.649309253515785,80.86886555404675
+D367,Dr. Aarav Reddy,General Physician,"Ujjain, Madhya Pradesh",22.58633,88.3703,"Flu, Cough, Fever",Ujjain,23.21554040393321,75.8335636694718
+D368,Dr. Kavya Nair,Cardiologist,"Satna, Madhya Pradesh",23.27012,77.43027,"High BP, Heart Attack, Chest Pain",Satna,24.58015295907839,80.81985210784053
+D369,Dr. Aditi Sharma,Dentist,"Sagar, Madhya Pradesh",26.8285,80.95813,"Tooth Pain, Cavity, Bad Breath",Sagar,23.86139592312538,78.69634798773409
+D370,Dr. Sanya Patel,Dermatologist,"Ujjain, Madhya Pradesh",19.06738,72.89609,"Psoriasis, Acne, Eczema",Ujjain,23.20621622907054,75.83291811199072
+D371,Dr. Aarav Kumar,Cardiologist,"Rewa, Madhya Pradesh",22.59155,88.37233,"Heart Attack, High BP, Chest Pain",Rewa,24.52551004547687,81.34476191121162
+D372,Dr. Kavya Patel,General Physician,"Bhopal, Madhya Pradesh",26.89811,75.77643,"Flu, Cold, Headache",Bhopal,23.295130406886123,77.39394862111017
+D373,Dr. Vivaan Reddy,Dentist,"Rewa, Madhya Pradesh",19.09275,72.88858,"Bad Breath, Tooth Pain, Gum Infection",Rewa,24.584982754703415,81.31998816860195
+D374,Dr. Aditya Chopra,Dentist,"Bhopal, Madhya Pradesh",26.90547,75.76852,"Gum Infection, Cavity, Bad Breath",Bhopal,23.230980746058687,77.3946607019768
+D375,Dr. Aarav Chopra,Dentist,"Indore, Madhya Pradesh",23.25344,77.41533,"Gum Infection, Cavity, Tooth Pain",Indore,22.717749730030484,75.82787202569995
+D376,Dr. Aditi Singh,Neurologist,"Ratlam, Madhya Pradesh",22.559,88.35833,"Stroke, Epilepsy, Parkinson's",Ratlam,23.293538246708238,75.05211729356562
+D377,Dr. Aarav Gupta,Gynecologist,"Gwalior, Madhya Pradesh",26.85919,80.94304,"UTI, PCOD, Pregnancy",Gwalior,26.20419434460731,78.13533533309527
+D378,Dr. Sanya Mehta,Gynecologist,"Ujjain, Madhya Pradesh",17.40344,78.504,"Menstrual Disorder, PCOD, UTI",Ujjain,23.184724431307195,75.7806066078473
+D379,Dr. Ishita Mehta,ENT Specialist,"Bhopal, Madhya Pradesh",23.25864,77.42616,"Sinusitis, Tonsillitis, Ear Infection",Bhopal,23.243903210878177,77.38249052001318
+D380,Dr. Ananya Kumar,Psychiatrist,"Jabalpur, Madhya Pradesh",26.85229,80.94024,"Bipolar Disorder, Anxiety, Depression",Jabalpur,23.16084208832472,80.0089373592027
+D381,Dr. Aditya Mehta,ENT Specialist,"Chhindwara, Madhya Pradesh",22.57308,88.35076,"Hearing Loss, Sinusitis, Tonsillitis",Chhindwara,22.056805376117595,78.89059015021468
+D382,Dr. Ishita Chopra,Dermatologist,"Jabalpur, Madhya Pradesh",23.2547,77.39485,"Eczema, Skin Allergy, Acne",Jabalpur,23.225545380731315,80.03600483768253
+D383,Dr. Sanya Mehta,ENT Specialist,"Chhindwara, Madhya Pradesh",26.84318,80.92883,"Hearing Loss, Sinusitis, Tonsillitis",Chhindwara,22.083317339182713,78.90612002816327
+D384,Dr. Aditya Singh,Psychiatrist,"Rewa, Madhya Pradesh",28.6168,77.19357,"Insomnia, Depression, Anxiety",Rewa,24.489203645341817,81.3276235050759
+D385,Dr. Ananya Reddy,Dentist,"Chhindwara, Madhya Pradesh",23.25855,77.40395,"Bad Breath, Cavity, Tooth Pain",Chhindwara,22.090752099337905,78.93053006295109
+D386,Dr. Diya Nair,Cardiologist,"Gwalior, Madhya Pradesh",22.56094,88.36497,"Chest Pain, Arrhythmia, Heart Attack",Gwalior,26.257855142281617,78.20246344162017
+D387,Dr. Kavya Nair,Cardiologist,"Sagar, Madhya Pradesh",13.08228,80.27805,"Arrhythmia, Chest Pain, Heart Attack",Sagar,23.790485763014484,78.74292214412408
+D388,Dr. Rohan Gupta,Gynecologist,"Bhopal, Madhya Pradesh",22.5597,88.36674,"UTI, PCOD, Menstrual Disorder",Bhopal,23.26541263705028,77.41105867469403
+D389,Dr. Diya Nair,Dentist,"Jabalpur, Madhya Pradesh",12.9913,77.59927,"Bad Breath, Cavity, Tooth Pain",Jabalpur,23.22173113084119,79.93930974678791
+D390,Dr. Rohan Agarwal,Gynecologist,"Bhopal, Madhya Pradesh",18.52231,73.84332,"UTI, Menstrual Disorder, PCOD",Bhopal,23.221060033300322,77.406622488053
+D391,Dr. Aditi Nair,Cardiologist,"Chhindwara, Madhya Pradesh",17.3888,78.49772,"Heart Attack, Arrhythmia, High BP",Chhindwara,22.040952132852606,78.93509557847295
+D392,Dr. Ishita Mehta,Gynecologist,"Ratlam, Madhya Pradesh",19.08176,72.88593,"PCOD, UTI, Pregnancy",Ratlam,23.371856626165666,74.99197428848173
+D393,Dr. Kavya Mehta,Pediatrician,"Jabalpur, Madhya Pradesh",23.24402,77.39752,"Cough, Fever in Kids, Allergy",Jabalpur,23.20139255440341,80.01908027064208
+D394,Dr. Ishita Singh,Neurologist,"Rewa, Madhya Pradesh",13.09267,80.25637,"Stroke, Epilepsy, Migraine",Rewa,24.503924473333694,81.28325549718015
+D395,Dr. Sanya Gupta,Dentist,"Chhindwara, Madhya Pradesh",19.0569,72.88363,"Tooth Pain, Bad Breath, Gum Infection",Chhindwara,22.05646024146573,78.97086303088089
+D396,Dr. Ishita Gupta,Orthopedic,"Ratlam, Madhya Pradesh",17.38655,78.49583,"Joint Pain, Fracture, Back Pain",Ratlam,23.328055243336088,75.06557215681819
+D397,Dr. Kavya Agarwal,Dentist,"Sagar, Madhya Pradesh",26.92414,75.76924,"Gum Infection, Cavity, Bad Breath",Sagar,23.825784415545073,78.76937072560804
+D398,Dr. Sanya Nair,Dermatologist,"Ratlam, Madhya Pradesh",13.08172,80.26218,"Skin Allergy, Acne, Psoriasis",Ratlam,23.30436009521977,75.07355472716516
+D399,Dr. Kavya Sharma,Gynecologist,"Sagar, Madhya Pradesh",18.51879,73.86408,"UTI, PCOD, Menstrual Disorder",Sagar,23.885180783473384,78.75351074176642
+D400,Dr. Sanya Agarwal,ENT Specialist,"Chhindwara, Madhya Pradesh",26.91085,75.79481,"Sinusitis, Hearing Loss, Ear Infection",Chhindwara,22.0544330525297,78.91513245443213
+D401,Dr. Rohan Agarwal,Psychiatrist,"Bhopal, Madhya Pradesh",19.06657,72.88803,"Bipolar Disorder, Anxiety, Depression",Bhopal,23.253949640611832,77.3702425696906
+D402,Dr. Aarav Mehta,Psychiatrist,"Rewa, Madhya Pradesh",22.55637,88.36544,"Bipolar Disorder, Anxiety, Insomnia",Rewa,24.517082208139175,81.34324448262892
+D403,Dr. Kavya Gupta,Gynecologist,"Satna, Madhya Pradesh",13.0653,80.26835,"Pregnancy, UTI, Menstrual Disorder",Satna,24.623411193087495,80.84820001356022
+D404,Dr. Aarav Sharma,General Physician,"Gwalior, Madhya Pradesh",22.55976,88.35681,"Fever, Cough, Flu",Gwalior,26.180591904599886,78.20497887117973
+D405,Dr. Sanya Mehta,Dermatologist,"Gwalior, Madhya Pradesh",17.38707,78.4707,"Eczema, Acne, Psoriasis",Gwalior,26.217657619511854,78.13290056640353
+D406,Dr. Ananya Chopra,Psychiatrist,"Rewa, Madhya Pradesh",13.08924,80.28195,"Depression, Anxiety, Insomnia",Rewa,24.570446280886816,81.28419436580486
+D407,Dr. Ishita Gupta,Neurologist,"Rewa, Madhya Pradesh",13.09584,80.27409,"Parkinson's, Stroke, Migraine",Rewa,24.569499362987038,81.26922697872615
+D408,Dr. Sanya Agarwal,ENT Specialist,"Satna, Madhya Pradesh",17.39464,78.48557,"Hearing Loss, Ear Infection, Sinusitis",Satna,24.60704204109014,80.8186002076965
+D409,Dr. Aditya Patel,Dentist,"Satna, Madhya Pradesh",19.07962,72.86732,"Gum Infection, Bad Breath, Cavity",Satna,24.60814600344935,80.88097363951498
+D410,Dr. Aditi Kumar,Pediatrician,"Sagar, Madhya Pradesh",22.56841,88.37632,"Flu, Allergy, Cough",Sagar,23.832975576406483,78.69279384540671
+D411,Dr. Rohan Nair,Pediatrician,"Sagar, Madhya Pradesh",18.51102,73.87336,"Cough, Flu, Allergy",Sagar,23.80021629655527,78.77021521416907
+D412,Dr. Diya Singh,Orthopedic,"Indore, Madhya Pradesh",12.95346,77.59037,"Fracture, Joint Pain, Arthritis",Indore,22.686847003065303,75.8219018445806
+D413,Dr. Aditya Agarwal,Cardiologist,"Sagar, Madhya Pradesh",18.51434,73.83694,"Arrhythmia, Heart Attack, Chest Pain",Sagar,23.866478466402082,78.7107258144415
+D414,Dr. Diya Gupta,Pediatrician,"Ujjain, Madhya Pradesh",13.1021,80.27737,"Fever in Kids, Cough, Flu",Ujjain,23.163197219250446,75.82003633435161
+D415,Dr. Rohan Kumar,Orthopedic,"Jabalpur, Madhya Pradesh",23.27441,77.39608,"Back Pain, Arthritis, Fracture",Jabalpur,23.16177227480932,79.96540720957995
+D416,Dr. Vivaan Agarwal,ENT Specialist,"Jabalpur, Madhya Pradesh",28.60598,77.20351,"Tonsillitis, Hearing Loss, Sinusitis",Jabalpur,23.17704863257038,79.98146064180952
+D417,Dr. Rohan Singh,Orthopedic,"Bhopal, Madhya Pradesh",28.60657,77.22896,"Joint Pain, Fracture, Back Pain",Bhopal,23.24584572706557,77.41648837835378
+D418,Dr. Diya Sharma,ENT Specialist,"Jabalpur, Madhya Pradesh",23.27082,77.41219,"Ear Infection, Sinusitis, Tonsillitis",Jabalpur,23.210042846851227,80.0234376624957
+D419,Dr. Diya Nair,Dermatologist,"Rewa, Madhya Pradesh",19.08647,72.88859,"Eczema, Skin Allergy, Acne",Rewa,24.54485008882733,81.34222307907584
+D420,Dr. Aditya Nair,Orthopedic,"Indore, Madhya Pradesh",18.53361,73.85527,"Fracture, Back Pain, Arthritis",Indore,22.73584124939991,75.89123333367293
+D421,Dr. Rohan Agarwal,Gynecologist,"Sagar, Madhya Pradesh",28.61676,77.1911,"Pregnancy, PCOD, UTI",Sagar,23.84033503101816,78.69517130234277
+D422,Dr. Ananya Kumar,ENT Specialist,"Sagar, Madhya Pradesh",26.8933,75.78269,"Tonsillitis, Ear Infection, Sinusitis",Sagar,23.81834217464585,78.70857137580775
+D423,Dr. Sanya Patel,Dermatologist,"Ujjain, Madhya Pradesh",23.24119,77.42824,"Eczema, Skin Allergy, Acne",Ujjain,23.13529281528673,75.7770874763688
+D424,Dr. Aarav Kumar,Dermatologist,"Ujjain, Madhya Pradesh",28.60785,77.2283,"Psoriasis, Eczema, Acne",Ujjain,23.186904781546932,75.76359991063033
+D425,Dr. Ishita Chopra,Gynecologist,"Chhindwara, Madhya Pradesh",19.08114,72.88673,"Menstrual Disorder, UTI, Pregnancy",Chhindwara,22.092135943747422,78.90203840424107
+D426,Dr. Aditi Singh,General Physician,"Indore, Madhya Pradesh",12.9563,77.60097,"Headache, Cough, Fever",Indore,22.688550897885197,75.83754310082035
+D427,Dr. Aditi Reddy,Dentist,"Indore, Madhya Pradesh",22.56625,88.3736,"Cavity, Gum Infection, Bad Breath",Indore,22.677588787820323,75.87801554992164
+D428,Dr. Vivaan Mehta,Gynecologist,"Indore, Madhya Pradesh",19.06912,72.86109,"Pregnancy, Menstrual Disorder, UTI",Indore,22.720605653879975,75.84580973419479
+D429,Dr. Sanya Reddy,Cardiologist,"Indore, Madhya Pradesh",26.89305,75.77393,"Heart Attack, High BP, Chest Pain",Indore,22.703094996890396,75.82548238205901
+D430,Dr. Aarav Reddy,Psychiatrist,"Gwalior, Madhya Pradesh",26.90838,75.77926,"Depression, Insomnia, Bipolar Disorder",Gwalior,26.25992449917557,78.13345299619412
+D431,Dr. Kavya Singh,Psychiatrist,"Chhindwara, Madhya Pradesh",17.39351,78.48304,"Depression, Bipolar Disorder, Insomnia",Chhindwara,22.076008413893675,78.9313284117528
+D432,Dr. Aarav Sharma,Psychiatrist,"Ujjain, Madhya Pradesh",13.06569,80.28423,"Anxiety, Depression, Insomnia",Ujjain,23.167722399076364,75.8294922409076
+D433,Dr. Rohan Agarwal,Gynecologist,"Sagar, Madhya Pradesh",23.27414,77.39616,"UTI, Pregnancy, Menstrual Disorder",Sagar,23.87830727004956,78.76956768696647
+D434,Dr. Sanya Patel,Dentist,"Jabalpur, Madhya Pradesh",18.50112,73.85764,"Cavity, Gum Infection, Bad Breath",Jabalpur,23.154575517309393,79.98969785173608
+D435,Dr. Aditi Reddy,Dentist,"Gwalior, Madhya Pradesh",12.97535,77.58875,"Tooth Pain, Bad Breath, Cavity",Gwalior,26.177548078636413,78.15407774565213
+D436,Dr. Kavya Chopra,ENT Specialist,"Bhopal, Madhya Pradesh",22.57523,88.34624,"Tonsillitis, Sinusitis, Hearing Loss",Bhopal,23.294528939217535,77.45161655026581
+D437,Dr. Kavya Gupta,Pediatrician,"Indore, Madhya Pradesh",22.58769,88.37147,"Cough, Fever in Kids, Flu",Indore,22.725453054816757,75.84693247665255
+D438,Dr. Kavya Kumar,Cardiologist,"Ujjain, Madhya Pradesh",28.59691,77.21248,"High BP, Heart Attack, Arrhythmia",Ujjain,23.14787751326024,75.77125261925852
+D439,Dr. Aarav Patel,General Physician,"Gwalior, Madhya Pradesh",12.95925,77.58186,"Fever, Cough, Flu",Gwalior,26.209442246680265,78.14362036387764
+D440,Dr. Ishita Reddy,Orthopedic,"Indore, Madhya Pradesh",13.08783,80.26506,"Fracture, Back Pain, Arthritis",Indore,22.69311762975565,75.82408177777455
+D441,Dr. Aditi Kumar,Dentist,"Ujjain, Madhya Pradesh",12.99124,77.58392,"Bad Breath, Cavity, Tooth Pain",Ujjain,23.132778307195622,75.77089551715663
+D442,Dr. Ananya Chopra,Dentist,"Satna, Madhya Pradesh",12.96156,77.61222,"Cavity, Tooth Pain, Bad Breath",Satna,24.588510254968455,80.84789705213673
+D443,Dr. Rohan Nair,Psychiatrist,"Jabalpur, Madhya Pradesh",12.97905,77.59252,"Depression, Bipolar Disorder, Insomnia",Jabalpur,23.198896424408694,80.00236041609435
+D444,Dr. Aditi Mehta,General Physician,"Bhopal, Madhya Pradesh",17.3861,78.4708,"Headache, Cold, Fever",Bhopal,23.251257574187488,77.45886973119464
+D445,Dr. Vivaan Agarwal,Cardiologist,"Chhindwara, Madhya Pradesh",26.86047,80.94498,"High BP, Arrhythmia, Chest Pain",Chhindwara,22.07737282283531,78.95245672949503
+D446,Dr. Aarav Kumar,Neurologist,"Ratlam, Madhya Pradesh",26.92757,75.78944,"Epilepsy, Parkinson's, Stroke",Ratlam,23.316327465682612,75.03499853525119
+D447,Dr. Diya Chopra,Neurologist,"Rewa, Madhya Pradesh",18.51523,73.85308,"Stroke, Epilepsy, Parkinson's",Rewa,24.571456572235256,81.31989305289207
+D448,Dr. Aditi Gupta,Neurologist,"Sagar, Madhya Pradesh",18.51192,73.86105,"Epilepsy, Parkinson's, Stroke",Sagar,23.84544671575476,78.72375718231058
+D449,Dr. Vivaan Chopra,Gynecologist,"Indore, Madhya Pradesh",12.95318,77.60221,"Menstrual Disorder, PCOD, Pregnancy",Indore,22.72714984016574,75.81380483165859
+D450,Dr. Ishita Reddy,Psychiatrist,"Ratlam, Madhya Pradesh",26.83911,80.95081,"Insomnia, Depression, Bipolar Disorder",Ratlam,23.305710168313947,75.04779853303428
+D451,Dr. Kavya Kumar,Psychiatrist,"Gwalior, Madhya Pradesh",23.26539,77.39517,"Bipolar Disorder, Insomnia, Depression",Gwalior,26.19530091629339,78.16437059468532
+D452,Dr. Diya Patel,Dentist,"Ujjain, Madhya Pradesh",26.90505,75.77307,"Bad Breath, Cavity, Tooth Pain",Ujjain,23.201024244783493,75.79104436597339
+D453,Dr. Aditi Sharma,General Physician,"Chhindwara, Madhya Pradesh",23.27751,77.3957,"Cough, Fever, Flu",Chhindwara,22.10427536368116,78.96366268568372
+D454,Dr. Aditi Sharma,Neurologist,"Jabalpur, Madhya Pradesh",28.59789,77.22009,"Epilepsy, Migraine, Stroke",Jabalpur,23.159775563937952,80.01091303642515
+D455,Dr. Diya Singh,Neurologist,"Rewa, Madhya Pradesh",12.96847,77.57587,"Migraine, Epilepsy, Stroke",Rewa,24.567900650978874,81.30756308630637
+D456,Dr. Aditi Singh,Neurologist,"Indore, Madhya Pradesh",26.85765,80.95,"Migraine, Stroke, Parkinson's",Indore,22.754150075174486,75.8678736895444
+D457,Dr. Ishita Patel,Orthopedic,"Bhopal, Madhya Pradesh",23.27361,77.41146,"Fracture, Joint Pain, Back Pain",Bhopal,23.226997875315234,77.38800875191562
+D458,Dr. Aarav Patel,Dentist,"Chhindwara, Madhya Pradesh",18.5092,73.85413,"Bad Breath, Tooth Pain, Gum Infection",Chhindwara,22.039881300482456,78.96919196365802
+D459,Dr. Sanya Reddy,Pediatrician,"Rewa, Madhya Pradesh",22.58048,88.34928,"Flu, Allergy, Fever in Kids",Rewa,24.488888185705896,81.3139453223084
+D460,Dr. Diya Chopra,Gynecologist,"Satna, Madhya Pradesh",18.50584,73.86259,"PCOD, Pregnancy, UTI",Satna,24.60069180360955,80.86435387342769
+D461,Dr. Diya Chopra,Dentist,"Gwalior, Madhya Pradesh",19.08312,72.89222,"Bad Breath, Tooth Pain, Gum Infection",Gwalior,26.238070335571095,78.20100888265407
+D462,Dr. Aditi Agarwal,Dermatologist,"Jabalpur, Madhya Pradesh",19.07416,72.89258,"Eczema, Acne, Psoriasis",Jabalpur,23.132856760155306,79.9625564034421
+D463,Dr. Sanya Patel,Orthopedic,"Indore, Madhya Pradesh",28.59895,77.22512,"Fracture, Joint Pain, Back Pain",Indore,22.690450925088783,75.85849853051701
+D464,Dr. Rohan Gupta,Cardiologist,"Indore, Madhya Pradesh",12.97305,77.60083,"Chest Pain, Heart Attack, Arrhythmia",Indore,22.757469796044177,75.84195870627202
+D465,Dr. Vivaan Mehta,Dermatologist,"Jabalpur, Madhya Pradesh",26.82753,80.95291,"Acne, Eczema, Skin Allergy",Jabalpur,23.178856195343656,80.02557686826948
+D466,Dr. Ananya Nair,Dermatologist,"Indore, Madhya Pradesh",12.98385,77.60374,"Eczema, Acne, Skin Allergy",Indore,22.675830462969017,75.82812655536648
+D467,Dr. Rohan Mehta,Neurologist,"Rewa, Madhya Pradesh",28.60228,77.18954,"Migraine, Epilepsy, Stroke",Rewa,24.52482842786187,81.34496563971987
+D468,Dr. Rohan Sharma,ENT Specialist,"Chhindwara, Madhya Pradesh",28.61476,77.21397,"Sinusitis, Hearing Loss, Ear Infection",Chhindwara,22.105478382522236,78.98102365511838
+D469,Dr. Aarav Agarwal,Neurologist,"Sagar, Madhya Pradesh",18.50131,73.85695,"Epilepsy, Migraine, Parkinson's",Sagar,23.847260259407474,78.74714940036829
+D470,Dr. Kavya Chopra,Cardiologist,"Indore, Madhya Pradesh",12.98885,77.59365,"Heart Attack, Arrhythmia, High BP",Indore,22.73168375182238,75.85994082556137
+D471,Dr. Vivaan Kumar,ENT Specialist,"Satna, Madhya Pradesh",26.86259,80.96002,"Tonsillitis, Sinusitis, Ear Infection",Satna,24.58727217471339,80.86080884848566
+D472,Dr. Rohan Patel,ENT Specialist,"Chhindwara, Madhya Pradesh",26.90068,75.78284,"Hearing Loss, Tonsillitis, Ear Infection",Chhindwara,22.02637399174874,78.94425186187176
+D473,Dr. Aditi Gupta,Gynecologist,"Chhindwara, Madhya Pradesh",13.10002,80.26226,"UTI, Pregnancy, Menstrual Disorder",Chhindwara,22.01524275393508,78.97162024140783
+D474,Dr. Rohan Kumar,Neurologist,"Satna, Madhya Pradesh",26.85069,80.93113,"Stroke, Epilepsy, Parkinson's",Satna,24.56893956320564,80.86469276767535
+D475,Dr. Diya Sharma,Pediatrician,"Ratlam, Madhya Pradesh",23.27117,77.40322,"Flu, Fever in Kids, Allergy",Ratlam,23.335697989106777,75.04528122736299
+D476,Dr. Vivaan Singh,ENT Specialist,"Satna, Madhya Pradesh",19.09209,72.87085,"Ear Infection, Sinusitis, Hearing Loss",Satna,24.634895492024338,80.81551335285822
+D477,Dr. Kavya Kumar,Cardiologist,"Indore, Madhya Pradesh",18.53426,73.83711,"Chest Pain, High BP, Heart Attack",Indore,22.74806659276624,75.83537572324495
+D478,Dr. Kavya Reddy,Gynecologist,"Chhindwara, Madhya Pradesh",17.38308,78.46731,"PCOD, UTI, Menstrual Disorder",Chhindwara,22.057815788780967,78.97644413901962
+D479,Dr. Ishita Chopra,General Physician,"Chhindwara, Madhya Pradesh",13.08473,80.27071,"Cold, Headache, Cough",Chhindwara,22.06981843919086,78.89586691212374
+D480,Dr. Aarav Patel,Dentist,"Indore, Madhya Pradesh",18.50378,73.84011,"Cavity, Gum Infection, Bad Breath",Indore,22.710966539501534,75.81700342749372
+D481,Dr. Vivaan Patel,Psychiatrist,"Chhindwara, Madhya Pradesh",13.09426,80.27177,"Anxiety, Depression, Insomnia",Chhindwara,22.06514490570334,78.89976583630006
+D482,Dr. Vivaan Patel,Dentist,"Bhopal, Madhya Pradesh",26.90084,75.802,"Tooth Pain, Cavity, Bad Breath",Bhopal,23.25613580899232,77.37643797803848
+D483,Dr. Aarav Gupta,Gynecologist,"Chhindwara, Madhya Pradesh",22.56418,88.36752,"PCOD, Pregnancy, UTI",Chhindwara,22.102602795030784,78.91013014967746
+D484,Dr. Diya Kumar,Neurologist,"Ujjain, Madhya Pradesh",19.08108,72.85882,"Parkinson's, Epilepsy, Migraine",Ujjain,23.187548126814182,75.80123177718306
+D485,Dr. Aarav Gupta,ENT Specialist,"Ratlam, Madhya Pradesh",26.92391,75.77606,"Ear Infection, Sinusitis, Hearing Loss",Ratlam,23.328623026147582,75.06264452127341
+D486,Dr. Diya Agarwal,Neurologist,"Satna, Madhya Pradesh",28.63159,77.19232,"Stroke, Migraine, Parkinson's",Satna,24.552636116395195,80.86640771794019
+D487,Dr. Kavya Patel,Orthopedic,"Sagar, Madhya Pradesh",12.95695,77.58046,"Back Pain, Arthritis, Fracture",Sagar,23.79549795917681,78.69151115196227
+D488,Dr. Rohan Gupta,Psychiatrist,"Sagar, Madhya Pradesh",23.27497,77.40806,"Anxiety, Depression, Insomnia",Sagar,23.81306741961413,78.75486967200398
+D489,Dr. Ananya Chopra,Gynecologist,"Jabalpur, Madhya Pradesh",17.38985,78.48473,"Menstrual Disorder, UTI, Pregnancy",Jabalpur,23.135129125751526,79.99855815839888
+D490,Dr. Aarav Agarwal,Cardiologist,"Chhindwara, Madhya Pradesh",19.08598,72.888,"Arrhythmia, High BP, Chest Pain",Chhindwara,22.10498174821796,78.92654874898622
+D491,Dr. Ishita Singh,Orthopedic,"Gwalior, Madhya Pradesh",23.25176,77.39346,"Fracture, Arthritis, Joint Pain",Gwalior,26.203867010999307,78.17479843035962
+D492,Dr. Rohan Mehta,Gynecologist,"Jabalpur, Madhya Pradesh",13.08226,80.26751,"UTI, PCOD, Pregnancy",Jabalpur,23.20855723413662,79.9685230329651
+D493,Dr. Aarav Mehta,Orthopedic,"Sagar, Madhya Pradesh",26.84979,80.95416,"Joint Pain, Back Pain, Fracture",Sagar,23.819358756384343,78.70725662696336
+D494,Dr. Sanya Chopra,Neurologist,"Rewa, Madhya Pradesh",28.63255,77.22426,"Migraine, Stroke, Epilepsy",Rewa,24.559332485139315,81.2670168973889
+D495,Dr. Aditi Mehta,Orthopedic,"Bhopal, Madhya Pradesh",22.58734,88.37791,"Arthritis, Joint Pain, Back Pain",Bhopal,23.260031763601038,77.36972701895131
+D496,Dr. Diya Patel,Pediatrician,"Indore, Madhya Pradesh",19.09477,72.88371,"Fever in Kids, Flu, Allergy",Indore,22.696541608542407,75.81756437625756
+D497,Dr. Vivaan Nair,General Physician,"Ratlam, Madhya Pradesh",23.26391,77.4308,"Headache, Cough, Fever",Ratlam,23.346471171983346,75.01336497888414
+D498,Dr. Vivaan Nair,Cardiologist,"Sagar, Madhya Pradesh",13.06734,80.27865,"Heart Attack, High BP, Arrhythmia",Sagar,23.79393974158219,78.76951099271336
+D499,Dr. Sanya Patel,Cardiologist,"Gwalior, Madhya Pradesh",23.24876,77.42348,"Chest Pain, High BP, Arrhythmia",Gwalior,26.257615672773127,78.22312960561219
+D500,Dr. Sanya Chopra,ENT Specialist,"Gwalior, Madhya Pradesh",13.07638,80.28688,"Hearing Loss, Sinusitis, Ear Infection",Gwalior,26.246660045509245,78.19049264578463

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8 col-lg-6">
+    <div class="card card-compact">
+      <h4 class="mb-3">Welcome — Please login</h4>
+      <form action="/login" method="post" class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <label class="form-label">Name</label>
+            <input name="name" required class="form-control" placeholder="Your full name">
+          </div>
+          <div class="col-md-6 mb-2">
+            <label class="form-label">Phone</label>
+            <input name="phone" required class="form-control" placeholder="10-digit phone">
+          </div>
+        </div>
+
+        <div class="mb-2">
+          <label class="form-label">Email</label>
+          <input name="email" type="email" class="form-control" placeholder="you@example.com">
+        </div>
+
+        <div class="mb-2">
+          <label class="form-label">Address</label>
+          <input name="address" class="form-control" placeholder="Street, Area">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">City</label>
+          <input name="city" class="form-control" placeholder="City (used for doctor search)">
+        </div>
+
+        <div class="d-grid">
+          <button class="btn btn-primary" type="submit">Continue</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
