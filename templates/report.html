@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="card card-compact text-center">
+      <h4>📑 Generate Report</h4>
+      <p class="text-muted">Download a PDF summary including login details, prediction, appointments & trends.</p>
+
+      <form action="/generate_report" method="get">
+        <button class="btn btn-primary">Download Report PDF</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

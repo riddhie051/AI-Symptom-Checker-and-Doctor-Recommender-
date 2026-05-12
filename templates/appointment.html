@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="card card-compact text-center">
+      <h4>Appointment Confirmed</h4>
+
+      {% if data %}
+        <p class="mb-1"><strong>Doctor:</strong> {{ data.doctor_name }}</p>
+        <p class="mb-1"><strong>Specialization:</strong> {{ data.doctor_specialization }}</p>
+        <p class="mb-1"><strong>City:</strong> {{ data.city }}</p>
+        <p class="mb-1"><strong>Date:</strong> {{ data.appointment_date }}</p>
+        <p class="mb-1"><strong>Time:</strong> {{ data.appointment_time }}</p>
+      {% else %}
+        <p>No appointment data available.</p>
+      {% endif %}
+
+      <a href="/dashboard" class="btn btn-primary mt-3">Go to Dashboard</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
